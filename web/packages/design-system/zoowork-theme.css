@@ -1,0 +1,949 @@
+/* Production Paper Focus theme, shared with web/app. Import after tokens.css. */
+:root[data-brand-theme='paper-focus'] {
+  --radius: 0.625rem;
+  --brand-radius-sm: 8px;
+  --brand-radius-md: 12px;
+  --brand-radius-lg: 16px;
+  --brand-radius-xl: 24px;
+  --brand-display-font: var(--font-libre-baskerville), var(--font-noto-serif-sc), 'Noto Serif SC', Georgia, serif;
+  --brand-page-background: color-mix(in srgb, var(--zc-canvas) 60%, var(--zc-paper));
+  --brand-card-radius: var(--brand-radius-md);
+  --brand-composer-radius: 22px;
+  --brand-composer-border: color-mix(in srgb, var(--input) 75%, var(--card));
+  --brand-composer-send-disabled-background: var(--color-zinc-300);
+  --brand-composer-send-disabled-foreground: var(--primary-foreground);
+  --brand-card-shadow: none;
+  --brand-composer-shadow: 0 2px 6px rgba(0, 0, 0, 0.025), 0 8px 24px rgba(0, 0, 0, 0.035);
+  --brand-icon-background: #f8f8f8;
+  --brand-icon-border: rgba(52, 50, 45, 0.12);
+  --background: var(--brand-page-background);
+  --foreground: #34322d;
+  --primary: #34322d;
+  --primary-foreground: #ffffff;
+  --card: #ffffff;
+  --card-foreground: #34322d;
+  --popover: #ffffff;
+  --popover-foreground: #34322d;
+  --muted: #f8f8f8;
+  --muted-foreground: #858481;
+  --accent: #f8f8f8;
+  --accent-foreground: #34322d;
+  --border: #0000000f;
+  --input: var(--zc-line);
+  --ring: #34322d;
+  --destructive: #d93d43;
+  --sidebar-background: var(--zc-surface-subtle);
+  --sidebar-foreground: #34322d;
+  --sidebar-border: #0000000f;
+  --sidebar-accent: #f1f1f0;
+  --sidebar-accent-foreground: #34322d;
+  --sidebar-profile-bg: #ffffff;
+  --brand-nav-indicator: #34322d;
+  --ecap-primary: #34322d;
+  --ecap-primary-hover: #24221f;
+  --ecap-primary-text: #ffffff;
+  --ecap-spinner: #34322d;
+  --ecap-text-link: #34322d;
+  --ecap-text-tertiary: #a6a6a8;
+  --ecap-hover-bg: #f8f8f8;
+  --ecap-focus-ring: #34322d;
+  --ecap-accent-warm: #34322d;
+  --ecap-accent-warm-text: #4c4c4c;
+  --ecap-chat-user-bg: color-mix(in srgb, var(--muted) 97%, var(--foreground) 3%);
+  --ecap-surface-1: #f8f8f8;
+  --ecap-surface-2: #ffffff;
+  --ecap-surface-3: #f1f1f0;
+  --ecap-info-bg: #edf4ff;
+  --ecap-info-border: #bfd2fb;
+  --ecap-info-text: #1748a5;
+  --ecap-success-bg: #eef8f1;
+  --ecap-success-border: #b9dec5;
+  --ecap-success-text: #287243;
+  --ecap-warning-bg: #fff8e8;
+  --ecap-warning-border: #ead09a;
+  --ecap-warning-text: #8b5d18;
+  --ecap-error-bg: #fff0f0;
+  --ecap-error-border: #eeb9bc;
+  --ecap-error-text: #aa292f;
+  --ecap-page-gradient-from: #ffffff;
+  --ecap-page-gradient-to: #f8f8f8;
+  --ecap-shadow-card: none;
+  --ecap-shadow-dialog: 0 4px 24px rgba(0, 0, 0, 0.06);
+  --ecap-zoo-square-bg: var(--background);
+  --ecap-billing-dialog-bg: #f8f8f7;
+  --ecap-billing-card-bg: #ffffff;
+  --ecap-billing-card-border: #e3e2df;
+  --ecap-billing-control-bg: #efefed;
+  --ecap-billing-control-border: #dfdedb;
+  --ecap-billing-control-active: #ffffff;
+  --ecap-billing-ink: #34322d;
+  --ecap-billing-copy: #4c4a45;
+  --ecap-billing-muted: #77756f;
+  --ecap-billing-button-bg: #1a1a19;
+  --ecap-billing-button-text: #ffffff;
+  --ecap-billing-cta-outlined-border: #d8d7d3;
+  --ecap-billing-cta-disabled-bg: #efefed;
+  --ecap-billing-cta-disabled-text: #858481;
+  --ecap-billing-cta-disabled-border: #dfdedb;
+  --sidebar-shadow: none;
+}
+
+:root.dark[data-brand-theme='paper-focus'] {
+  --sidebar-hover: var(--sidebar-accent);
+  --brand-page-background: #191919;
+  --brand-card-shadow: 0 1px 0 rgba(255, 255, 250, 0.05) inset;
+  --brand-composer-border: var(--input);
+  --brand-composer-send-disabled-background: var(--muted);
+  --brand-composer-send-disabled-foreground: var(--muted-foreground);
+  --brand-composer-shadow: 0 18px 44px -28px rgba(0, 0, 0, 0.72);
+  --brand-icon-background: #252523;
+  --brand-icon-border: rgba(255, 255, 250, 0.1);
+  --background: #191919;
+  --foreground: #dadada;
+  --primary: #dadada;
+  --primary-foreground: #1c1c1c;
+  --card: #232323;
+  --card-foreground: #dadada;
+  --popover: #242424;
+  --popover-foreground: #dadada;
+  --muted: rgba(255, 255, 255, 0.06);
+  --muted-foreground: #7f7f7f;
+  --accent: rgba(255, 255, 255, 0.04);
+  --accent-foreground: #dadada;
+  --border: rgba(255, 255, 255, 0.07);
+  --input: #353535;
+  --ring: #dadada;
+  --sidebar-background: #1e1e1e;
+  --sidebar-foreground: #dadada;
+  --sidebar-border: rgba(255, 255, 255, 0.06);
+  --sidebar-accent: rgba(255, 255, 255, 0.04);
+  --sidebar-accent-foreground: #dadada;
+  --sidebar-profile-bg: #242424;
+  --ecap-primary: #dadada;
+  --ecap-primary-hover: #ffffff;
+  --ecap-primary-text: #34322d;
+  --ecap-spinner: #f8f8f8;
+  --ecap-text-link: #dadada;
+  --ecap-text-secondary: #acacac;
+  --ecap-text-tertiary: #7f7f7f;
+  --ecap-text-disabled: #5f5f5f;
+  --ecap-hover-bg: rgba(255, 255, 255, 0.04);
+  --ecap-focus-ring: #dadada;
+  --ecap-accent-warm: #dadada;
+  --ecap-accent-warm-text: #acacac;
+  --ecap-chat-user-bg: rgba(255, 255, 255, 0.06);
+  --ecap-surface-1: #191919;
+  --ecap-surface-2: #232323;
+  --ecap-surface-3: #2d2d2d;
+  --ecap-zoo-square-bg: #232323;
+  --ecap-info-bg: rgba(37, 99, 235, 0.15);
+  --ecap-info-border: rgba(37, 99, 235, 0.36);
+  --ecap-info-text: #8db2ff;
+  --ecap-success-bg: #203126;
+  --ecap-success-border: #3e674b;
+  --ecap-success-text: #82cc98;
+  --ecap-warning-bg: #372d1d;
+  --ecap-warning-border: #6d542e;
+  --ecap-warning-text: #e8b866;
+  --ecap-error-bg: #3a2224;
+  --ecap-error-border: #754044;
+  --ecap-error-text: #f29296;
+  --ecap-page-gradient-from: #1c1c1c;
+  --ecap-page-gradient-to: #1a1a1a;
+  --ecap-shadow-card: 0 1px 2px rgba(0, 0, 0, 0.24);
+  --ecap-shadow-dialog: 0 1px 2px rgba(0, 0, 0, 0.28), 0 18px 44px -24px rgba(0, 0, 0, 0.76);
+  --ecap-billing-dialog-bg: #1c1c1c;
+  --ecap-billing-card-bg: #242424;
+  --ecap-billing-card-border: rgba(255, 255, 255, 0.1);
+  --ecap-billing-control-bg: #242424;
+  --ecap-billing-control-border: rgba(255, 255, 255, 0.1);
+  --ecap-billing-control-active: #313131;
+  --ecap-billing-ink: #dadada;
+  --ecap-billing-copy: #acacac;
+  --ecap-billing-muted: #7f7f7f;
+  --ecap-billing-button-bg: #dadada;
+  --ecap-billing-button-text: #1c1c1c;
+  --ecap-billing-cta-outlined-border: rgba(255, 255, 255, 0.14);
+  --ecap-billing-cta-disabled-bg: #242424;
+  --ecap-billing-cta-disabled-text: #7f7f7f;
+  --ecap-billing-cta-disabled-border: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-brand-theme='paper-focus'] body {
+  font-family:
+    var(--font-dm-sans),
+    var(--font-noto-sans-sc),
+    -apple-system,
+    system-ui,
+    'Segoe UI Variable Display',
+    'Segoe UI',
+    Helvetica,
+    Arial,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol';
+}
+
+:root[data-brand-theme='paper-focus'] [data-brand-heading] h1,
+:root[data-brand-theme='paper-focus'] [data-brand-display] {
+  font-family: var(--brand-display-font);
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+
+:root[data-brand-theme='paper-focus'] [data-app-shell] {
+  background: var(--background);
+}
+
+:root[data-brand-theme='paper-focus'] .liquid-glass-root [data-app-main-panel] {
+  background: var(--background);
+  border: 0;
+  border-radius: 0;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+/* The task launcher shares the same workspace canvas as the other app routes. */
+:root[data-brand-theme='paper-focus'] [data-testid='new-chat-launcher'] {
+  background: var(--brand-page-background);
+}
+
+/* Integrations and their nested panels use the shared workspace canvas. */
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] {
+  background: var(--background);
+}
+
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [id='plugins-panel'] {
+  background: var(--background);
+}
+
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-testid='composio-connectors-page'] {
+  background: transparent;
+}
+
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-testid='composio-provider-grid'] > div {
+  background: transparent;
+  border-color: var(--border);
+  border-radius: 12px;
+}
+
+:root[data-brand-theme='paper-focus'] [data-theme-provider-card] {
+  min-height: 102px;
+  padding: 16px;
+  background: transparent;
+  border-color: var(--border);
+  border-radius: 12px;
+}
+
+@media (min-width: 1024px) {
+  :root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-testid='composio-provider-grid'] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-testid='composio-connectors-search'] {
+  background: transparent;
+  border-color: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: normal;
+}
+
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-theme-connector-search] {
+  height: 40px;
+  background: var(--accent);
+  border-color: transparent;
+  border-radius: 8px;
+}
+
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-theme-plugin-tabs] {
+  height: 36px;
+  gap: 4px;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-theme-plugin-tab] {
+  flex: none;
+  height: 36px;
+  padding-inline: 14px;
+  color: var(--muted-foreground);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: normal;
+  box-shadow: none;
+}
+
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-theme-plugin-tab][data-active],
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-theme-plugin-tab][data-state='active'],
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-theme-plugin-tab][aria-selected='true'] {
+  color: var(--foreground);
+  background: var(--card);
+  border-color: var(--border);
+  font-weight: 500;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-theme-connector-category] {
+  height: 36px;
+  padding-inline: 16px;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: normal;
+}
+
+:root[data-brand-theme='paper-focus']
+  [data-testid='plugins-page']
+  [data-theme-connector-category][aria-pressed='true'] {
+  color: var(--foreground);
+  background: var(--muted);
+  font-weight: 500;
+}
+
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-theme-connector-refresh] {
+  height: 36px;
+  padding-inline: 12px;
+  background: var(--muted);
+  border: 0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  box-shadow: none;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-theme-plugin-tab] {
+  color: #acacac;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-theme-plugin-tab][data-active],
+:root.dark[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-theme-plugin-tab][data-state='active'],
+:root.dark[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-theme-plugin-tab][aria-selected='true'] {
+  color: #dadada;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+:root.dark[data-brand-theme='paper-focus']
+  [data-testid='plugins-page']
+  [data-theme-connector-category]:not([aria-pressed='true']) {
+  color: #acacac;
+}
+
+:root.dark[data-brand-theme='paper-focus']
+  [data-testid='plugins-page']
+  [data-theme-connector-search]
+  input::placeholder {
+  color: #7f7f7f;
+}
+
+:root[data-brand-theme='paper-focus'] [data-theme-provider-icon-action] {
+  width: 36px;
+  height: 36px;
+  background: var(--card);
+  border-color: var(--border) !important;
+  border-radius: 8px;
+}
+
+:root[data-brand-theme='paper-focus'] [data-testid='plugins-page'] [data-page-header] h1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: normal;
+}
+
+:root[data-brand-theme='paper-focus'] [data-theme-provider-card] h2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: normal;
+}
+
+:root[data-brand-theme='paper-focus'] [data-theme-provider-card] p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: normal;
+}
+
+:root[data-brand-theme='paper-focus'] [data-page-header] {
+  height: 60px;
+  padding-inline: 24px;
+  background: transparent;
+  border-color: var(--border);
+}
+
+/* Manus app typography is intentionally compact and medium-weight. Keep the
+ * semantic page title consistent across plugins, channels, and future app
+ * routes instead of relying on each route's utility classes. */
+:root[data-brand-theme='paper-focus'] [data-page-header] [data-theme-page-title],
+:root[data-brand-theme='paper-focus'] [data-page-header] h1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: normal;
+}
+
+/* Channels mirrors the Manus integrations surface: cards share the canvas
+ * instead of introducing a white tile layer; only their 6% keyline separates
+ * them. Controls use the reference 8px radius while statuses remain pills. */
+:root[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-theme-channel-card] {
+  background: transparent;
+  border-color: rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+
+:root[data-brand-theme='paper-focus'] [data-theme-channel-title] {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: normal;
+}
+
+:root[data-brand-theme='paper-focus'] [data-theme-channel-description] {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: normal;
+}
+
+:root[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-testid$='-card-dm-policy'],
+:root[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-testid$='-card-group-policy'],
+:root[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-testid$='-card-agent'],
+:root[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-testid$='-card-disconnect'],
+:root[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-testid$='-card-setup-bot'] {
+  border-radius: 8px;
+}
+
+:root[data-brand-theme='paper-focus'] [data-theme-channel-primary-action] {
+  color: var(--primary-foreground);
+  background: var(--zc-action);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+:root[data-brand-theme='paper-focus'] [data-theme-channel-primary-action]:hover {
+  background: var(--primary-hover);
+}
+
+/* Keep the channel grid quiet in Paper Focus dark mode. The canvas, cards,
+ * fields, and status pills step through adjacent neutral surfaces instead of
+ * competing with one another, while a subtle keyline preserves grouping. */
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-theme-channel-card] {
+  color: var(--foreground);
+  background: #1f1f1f;
+  border-color: rgba(255, 255, 255, 0.075);
+  box-shadow: none;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-theme-channel-card]:hover {
+  background: #202020;
+  border-color: rgba(255, 255, 255, 0.11);
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channel-title] {
+  color: #dededc;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channel-description] {
+  color: #888886;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channel-icon] {
+  background: #242424;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channel-icon][data-configured='false'] img {
+  opacity: 0.72;
+  filter: grayscale(1) brightness(0.7) contrast(1.15) !important;
+  mix-blend-mode: screen !important;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channel-icon][data-configured='true'] {
+  background: #272727;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channel-status] {
+  color: #999997;
+  background: #252525;
+  border: 1px solid rgba(255, 255, 255, 0.045);
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-testid$='-card-dm-policy'],
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-testid$='-card-group-policy'] {
+  color: #8d8d8b;
+  background: #252525;
+  border-color: transparent;
+  opacity: 1;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-testid$='-card-agent'] {
+  color: #d8d8d6;
+  background: #202020;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-testid$='-card-disconnect'],
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-testid$='-card-setup-bot'] {
+  color: #d4d4d2;
+  background: #222222;
+  border-color: rgba(255, 255, 255, 0.13);
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-testid$='-card-disconnect']:hover,
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channels-page] [data-testid$='-card-setup-bot']:hover {
+  color: #f0f0ee;
+  background: #292929;
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channel-primary-action] {
+  color: #dcdcd9;
+  background: #222222;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-theme-channel-primary-action]:hover {
+  color: #f2f2ef;
+  background: #292929;
+  border-color: rgba(255, 255, 255, 0.17);
+}
+
+:root[data-brand-theme='paper-focus'] [data-chat-header-identity] {
+  padding-inline: 0;
+  font-weight: 600;
+}
+
+:root[data-brand-theme='paper-focus'] [data-page-header-actions] button:not([data-agent-update-action]),
+:root[data-brand-theme='paper-focus'] [data-header-tool-toggle],
+:root[data-brand-theme='paper-focus'] [data-connection-pill] {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--brand-radius-md);
+  box-shadow: var(--brand-card-shadow);
+}
+
+:root[data-brand-theme='paper-focus'] [data-page-header-actions] button:not([data-agent-update-action]):hover,
+:root[data-brand-theme='paper-focus'] [data-header-tool-toggle]:hover {
+  color: var(--primary);
+  background: var(--accent);
+  border-color: var(--input);
+}
+
+/* Claw action buttons follow the shared control geometry. Keep the larger
+ * brand radius on status pills and other editorial surfaces. */
+:root:is([data-brand-theme='default'], [data-brand-theme='ocean'], [data-brand-theme='paper-focus'])
+  [data-claw-header-actions]
+  button {
+  border-radius: var(--radius-md) !important;
+}
+
+:root[data-brand-theme='paper-focus'] [data-brand-user-menu] {
+  background: var(--popover);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: var(--brand-radius-md);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+:root[data-brand-theme='paper-focus'] [data-brand-user-menu] {
+  border-radius: 16px;
+  background-clip: padding-box;
+}
+
+/* Legacy inline menus own positioning and clipping; floating menus use Radix
+ * viewport limits and must retain their scrollable overflow. */
+:root[data-brand-theme='paper-focus'] [data-brand-user-menu]:not([data-floating]) {
+  left: 10px;
+  width: calc(100% - 20px);
+  overflow: hidden;
+}
+
+:root[data-brand-theme='paper-focus'] [data-brand-user-menu] [data-testid='user-menu-profile'] {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+:root[data-brand-theme='paper-focus'] [data-brand-user-menu] [data-theme-user-plan] {
+  background: rgba(55, 53, 47, 0.04);
+  border: 0;
+  border-radius: 10px;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-brand-user-menu] {
+  background: #242424;
+  border-color: rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.02) inset,
+    0 8px 24px rgba(0, 0, 0, 0.28);
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-brand-user-menu] [data-theme-user-plan] {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-brand-user-menu] [class*='border-t'] {
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-brand-theme='paper-focus'] [data-brand-user-menu] [data-brand-user-menu-primary] {
+  height: 32px;
+  padding-inline: 12px;
+  color: var(--primary-foreground);
+  background: var(--primary);
+  border: 0;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+:root[data-brand-theme='paper-focus'] [data-theme-settings-avatar] {
+  width: 56px;
+  height: 56px;
+}
+
+:root[data-brand-theme='paper-focus'] [data-theme-settings-avatar-fallback] {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* Manus dark navigation uses secondary text directly. The base navigation
+ * color is a fixed light-theme value, so it must not be carried into dark
+ * mode or combined with muted opacity utilities. */
+:root.dark[data-brand-theme='paper-focus']
+  [data-testid='side-nav']
+  [data-testid^='nav-item-']:not([aria-disabled='true']) {
+  color: #dadada;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-testid='side-nav'] [data-testid^='nav-agent-row-'],
+:root.dark[data-brand-theme='paper-focus'] [data-testid='side-nav'] [data-testid^='nav-agent-session-'] {
+  color: #dadada;
+}
+
+:root.dark[data-brand-theme='paper-focus']
+  :is(
+    [data-testid='side-nav'] [data-testid^='nav-item-'],
+    :is([data-agent-workspace-nav], [data-brand-settings-nav]) [data-theme-sidebar-item]
+  )[aria-current='page'] {
+  color: #dadada;
+}
+
+:root.dark[data-brand-theme='paper-focus']
+  :is(
+    [data-testid='side-nav'] [data-testid^='nav-item-'],
+    :is([data-agent-workspace-nav], [data-brand-settings-nav]) [data-theme-sidebar-item]
+  ):hover {
+  color: #dadada !important;
+  background: var(--sidebar-hover) !important;
+  border-color: transparent !important;
+}
+
+:root.dark[data-brand-theme='paper-focus']
+  :is(
+    [data-testid='side-nav'] [data-testid^='nav-item-'][data-active='true'],
+    :is([data-agent-workspace-nav], [data-brand-settings-nav]) [data-theme-sidebar-item][aria-current='page']
+  ) {
+  color: #dadada !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: transparent !important;
+}
+
+:root.dark[data-brand-theme='paper-focus']
+  :not([data-zc-focus-modality='pointer']):is(
+    [data-testid='side-nav'] [data-testid^='nav-item-'],
+    :is([data-agent-workspace-nav], [data-brand-settings-nav]) [data-theme-sidebar-item]
+  ):focus-visible {
+  color: #dadada !important;
+  background: var(--sidebar-hover) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  outline: 1px solid rgba(255, 255, 255, 0.12);
+  outline-offset: 0;
+  box-shadow: none;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-testid='side-nav'] span[class*='uppercase'] {
+  color: #7f7f7f;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-testid^='general-theme-tile-'] + span {
+  color: #acacac;
+}
+
+:root.dark[data-brand-theme='paper-focus'] [data-testid^='general-theme-tile-'][data-selected='true'] + span {
+  color: #dadada;
+}
+
+/* Fallback for native controls; component focus utilities own their focus treatment. */
+@layer base {
+  :root[data-brand-theme='paper-focus'] .liquid-glass-root :where(button, input, textarea, select):focus-visible {
+    outline: 2px solid var(--background);
+    outline-offset: 1px;
+    box-shadow: 0 0 0 4px var(--primary);
+  }
+}
+
+/* Account appearance is component-owned and independent of viewport width. */
+:root[data-brand-theme='paper-focus'] [data-slot='primary-nav-user-card'] [data-testid='user-card-toggle'] {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: normal;
+  border-radius: 10px;
+}
+
+:root[data-brand-theme='paper-focus'] [data-slot='primary-nav-user-card'] {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+:root[data-brand-theme='paper-focus'] [data-slot='primary-nav-user-card'] [data-testid='user-card-mobile-app'] {
+  color: var(--foreground);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+:root[data-brand-theme='paper-focus'] [data-slot='primary-nav-user-card'] [data-testid='user-card-mobile-app']:hover {
+  color: var(--foreground);
+  background: var(--sidebar-accent);
+  border-color: transparent;
+}
+
+@media (min-width: 768px) {
+  :root[data-brand-theme='paper-focus'] {
+    --sidebar-hover: rgba(255, 255, 255, 0.55);
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-app-content-column] {
+    width: calc(100% - 260px);
+    margin-left: 260px !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-app-shell][data-nav-collapsed='true'] [data-app-content-column] {
+    width: calc(100% - 64px);
+    margin-left: 64px !important;
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-testid='side-nav'] {
+    top: 0;
+    left: 0;
+    background: var(--sidebar-background);
+    width: 260px;
+    height: 100vh;
+    border: 0;
+    /* Separate navigation from the canvas through surface contrast alone. */
+    border-right: 0;
+    border-radius: 0;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    box-shadow: var(--sidebar-shadow);
+    font-family:
+      -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', Helvetica, Arial, sans-serif;
+  }
+
+  :root.dark[data-brand-theme='paper-focus'] [data-testid='side-nav'] {
+    /* The shared liquid-glass rail adds a diagonal highlight in dark mode.
+     * Paper Focus uses Manus' flat neutral rail instead, so keep this
+     * selector specific enough to win over SideNav.module.css. */
+    background: var(--sidebar-background);
+    border-right: 1px solid rgba(255, 255, 255, 0.07);
+  }
+
+  :root.dark[data-brand-theme='paper-focus'] .liquid-glass-root [data-testid='side-nav'] {
+    background: var(--sidebar-background);
+    border: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.07);
+    box-shadow: none;
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-testid='side-nav'] > div > div:first-child {
+    height: 56px;
+    padding-inline: 20px;
+  }
+
+  :root[data-brand-theme='paper-focus'] :is([data-testid='side-nav'], [data-sidebar-toggle]) .side-nav-chevron-icon {
+    display: none;
+  }
+
+  :root[data-brand-theme='paper-focus'] :is([data-testid='side-nav'], [data-sidebar-toggle]) .paper-focus-sidebar-panel-icon {
+    display: block;
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-testid='sidebar-collapse-button'] {
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 8px;
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-testid='sidebar-expand-button'] {
+    width: 32px;
+    height: 32px;
+    transform: translate(-4px, -4px);
+    border-radius: 8px;
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-testid='side-nav'] > div > nav {
+    padding-inline: 8px;
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-testid='side-nav'] :is([data-testid^='nav-item-'], [data-workspace-switcher-layout='primary-nav']) {
+    height: 36px;
+    padding-inline: 8px;
+    border-radius: 8px;
+    color: var(--foreground);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: normal;
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-testid='side-nav'] [data-testid^='nav-agent-session-'] {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: normal;
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-testid='side-nav'] [data-testid^='nav-agent-row-'] {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: normal;
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-testid='side-nav'] span[class*='uppercase'] {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.091px;
+    text-transform: none;
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-testid='side-nav'] [data-testid^='nav-item-agent-'] span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: normal;
+  }
+
+  :root[data-brand-theme='paper-focus']
+    :is(
+      [data-testid='side-nav'] [data-testid^='nav-item-'],
+      :is([data-agent-workspace-nav], [data-brand-settings-nav]) [data-theme-sidebar-item]
+    ):hover,
+  :root[data-brand-theme='paper-focus']
+    :is(
+      [data-testid='side-nav'] [data-testid^='nav-item-'],
+      :is([data-agent-workspace-nav], [data-brand-settings-nav]) [data-theme-sidebar-item]
+    )[aria-current='page'] {
+    color: var(--foreground);
+    background: var(--sidebar-hover);
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-testid='side-nav'] [data-testid^='nav-item-'] > span[aria-hidden='true'] {
+    display: none;
+  }
+
+  :root[data-brand-theme='paper-focus'] [data-app-shell][data-nav-collapsed='true'] [data-testid='side-nav'] {
+    width: 64px;
+  }
+}
+
+/* Product semantic aliases used by the extracted navigation and connectors. */
+:root {
+  --sidebar-hover: var(--sidebar-accent);
+  --ecap-connector-action-border: #dedee2;
+  --ecap-tooltip-bg: rgba(0, 0, 0, 0.85);
+  --ecap-tooltip-text: #ffffff;
+  --ecap-success: var(--success);
+  --ecap-caution-bg: #fff7ed;
+  --ecap-caution-text: #c2410c;
+}
+.dark {
+  --ecap-connector-action-border: var(--border);
+  --ecap-caution-bg: rgba(124, 45, 18, 0.2);
+  --ecap-caution-text: #fdba74;
+}
+@theme inline {
+  --color-sidebar-background: var(--sidebar-background);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-hover: var(--sidebar-hover);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-ecap-tooltip-bg: var(--ecap-tooltip-bg);
+  --color-ecap-tooltip-text: var(--ecap-tooltip-text);
+  --color-ecap-success: var(--ecap-success);
+  --color-ecap-success-bg: var(--ecap-success-bg);
+  --color-ecap-success-text: var(--ecap-success-text);
+  --color-ecap-success-border: var(--ecap-success-border);
+  --color-ecap-caution-bg: var(--ecap-caution-bg);
+  --color-ecap-caution-text: var(--ecap-caution-text);
+  --color-ecap-error-bg: var(--ecap-error-bg);
+  --color-ecap-error-text: var(--ecap-error-text);
+  --color-ecap-warning-text: var(--ecap-warning-text);
+}
+
+/* Chat UI banner aliases from app globals.css. */
+:root {
+  --ecap-iq-bar-gradient: linear-gradient(
+    90deg,
+    #f3efff 0%,
+    #194dca 12%,
+    #3d80d1 25%,
+    #9db7df 35%,
+    #e2d8d0 45%,
+    #f0d25f 55%,
+    #f67622 65%,
+    #ee3ce8 75%,
+    #c47fc4 85%,
+    #f4f4f5 100%
+  );
+  --ecap-caution-border: #fdba74;
+}
+.dark {
+  --ecap-iq-bar-gradient: linear-gradient(
+    90deg,
+    var(--background) 0%,
+    #194dca 12%,
+    #3d80d1 25%,
+    #9db7df 35%,
+    #e2d8d0 45%,
+    #f0d25f 55%,
+    #f67622 65%,
+    #ee3ce8 75%,
+    #c47fc4 85%,
+    var(--background) 100%
+  );
+  --ecap-caution-border: #ea580c;
+}
+@theme inline {
+  --color-ecap-error-border: var(--ecap-error-border);
+  --color-ecap-caution-border: var(--ecap-caution-border);
+}

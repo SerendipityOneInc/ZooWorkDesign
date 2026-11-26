@@ -1,0 +1,57 @@
+/* Shared production activity motion. Import alongside Tailwind in each consumer. */
+@theme inline {
+  --color-ecap-preview-loading-text: var(--ecap-preview-loading-text, #a1a1aa);
+  --color-ecap-agent-builder-send-disabled: var(--ecap-agent-builder-send-disabled, #d4d4d8);
+}
+@theme {
+  /* Component animation tokens */
+  --animate-mobius-frame: mobius-frame var(--mobius-duration) linear infinite;
+
+  @keyframes mobius-frame {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/* Neutral activity/connection shimmer — gray status text with a white highlight sweep. */
+@utility shimmer-neutral {
+  background-image: linear-gradient(
+    90deg,
+    var(--ecap-preview-loading-text, #a1a1aa) 0%,
+    var(--ecap-preview-loading-text, #a1a1aa) 35%,
+    var(--color-white) 50%,
+    var(--ecap-preview-loading-text, #a1a1aa) 65%,
+    var(--ecap-preview-loading-text, #a1a1aa) 100%
+  );
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: shimmer-claw-sweep 1.8s linear infinite;
+
+  @media (prefers-reduced-motion: reduce) {
+    background-image: none;
+    -webkit-text-fill-color: currentColor;
+    color: inherit;
+    animation: none;
+  }
+}
+
+@keyframes shimmer-claw-sweep {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: 0% 0;
+  }
+}
+
+/* Mentions share the message pill tokens; keep selected identities atomic on wrap. */
+.chat-ui-mention { vertical-align: baseline; white-space: nowrap; }

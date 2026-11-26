@@ -1,0 +1,4 @@
+/* Import after tailwindcss. Paths resolve relative to this installed package. */
+@import './tokens.css';
+@import './zoowork-theme.css';
+@source './dist/**/*.js';

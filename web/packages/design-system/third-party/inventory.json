@@ -1,0 +1,3033 @@
+{
+  "schemaVersion": 1,
+  "auditDate": "2026-11-18",
+  "sourceCommit": "29e7d25d754c2f6a7a88f0da6c56eb7903b2c286",
+  "lockSha256": "374b7300502392980cf4b125eba64be4db3ed14e3cf2222215188b36c503dc0a",
+  "records": [
+    {
+      "name": "@floating-ui/core",
+      "version": "1.8.0",
+      "license": "MIT",
+      "author": "atomiks",
+      "source": "https://www.npmjs.com/package/@floating-ui/core/v/1.8.0",
+      "repository": "https://github.com/floating-ui/floating-ui.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_floating-ui_core_1.8.0/LICENSE",
+          "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@floating-ui/dom",
+      "version": "1.8.0",
+      "license": "MIT",
+      "author": "atomiks",
+      "source": "https://www.npmjs.com/package/@floating-ui/dom/v/1.8.0",
+      "repository": "https://github.com/floating-ui/floating-ui.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_floating-ui_dom_1.8.0/LICENSE",
+          "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@floating-ui/react-dom",
+      "version": "2.1.9",
+      "license": "MIT",
+      "author": "atomiks",
+      "source": "https://www.npmjs.com/package/@floating-ui/react-dom/v/2.1.9",
+      "repository": "https://github.com/floating-ui/floating-ui.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_floating-ui_react-dom_2.1.9/LICENSE",
+          "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@floating-ui/utils",
+      "version": "0.2.12",
+      "license": "MIT",
+      "author": "atomiks",
+      "source": "https://www.npmjs.com/package/@floating-ui/utils/v/0.2.12",
+      "repository": "https://github.com/floating-ui/floating-ui.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_floating-ui_utils_0.2.12/LICENSE",
+          "sha256": "0e4c9a9b6c71019cbbea3bdc20b01223110a9035700f9c960c8fcbf78c2325ce"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@heroicons/react",
+      "version": "2.2.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@heroicons/react/v/2.2.0",
+      "repository": "https://github.com/tailwindlabs/heroicons.git",
+      "scope": "组件运行与宿主依赖；预览运行依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_heroicons_react_2.2.0/LICENSE",
+          "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/number",
+      "version": "1.1.3",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/number/v/1.1.3",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_number_1.1.3/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/primitive",
+      "version": "1.1.7",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/primitive/v/1.1.7",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_primitive_1.1.7/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-accessible-icon",
+      "version": "1.1.16",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-accessible-icon/v/1.1.16",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-accessible-icon_1.1.16/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-accordion",
+      "version": "1.2.21",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-accordion/v/1.2.21",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-accordion_1.2.21/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-alert-dialog",
+      "version": "1.1.24",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-alert-dialog/v/1.1.24",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-alert-dialog_1.1.24/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-arrow",
+      "version": "1.1.16",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-arrow/v/1.1.16",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-arrow_1.1.16/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-aspect-ratio",
+      "version": "1.1.16",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-aspect-ratio/v/1.1.16",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-aspect-ratio_1.1.16/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-avatar",
+      "version": "1.2.7",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-avatar/v/1.2.7",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-avatar_1.2.7/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-checkbox",
+      "version": "1.3.12",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-checkbox/v/1.3.12",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-checkbox_1.3.12/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-collapsible",
+      "version": "1.1.21",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-collapsible/v/1.1.21",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-collapsible_1.1.21/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-collection",
+      "version": "1.1.16",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-collection/v/1.1.16",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-collection_1.1.16/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-compose-refs",
+      "version": "1.1.5",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-compose-refs/v/1.1.5",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-compose-refs_1.1.5/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-context",
+      "version": "1.2.2",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-context/v/1.2.2",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-context_1.2.2/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-context-menu",
+      "version": "2.3.8",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-context-menu/v/2.3.8",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-context-menu_2.3.8/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-dialog",
+      "version": "1.2.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-dialog/v/1.2.0",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-dialog_1.2.0/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-direction",
+      "version": "1.1.5",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-direction/v/1.1.5",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-direction_1.1.5/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-dismissable-layer",
+      "version": "1.1.20",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-dismissable-layer/v/1.1.20",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-dismissable-layer_1.1.20/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-dropdown-menu",
+      "version": "2.1.25",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-dropdown-menu/v/2.1.25",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-dropdown-menu_2.1.25/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-focus-guards",
+      "version": "1.1.6",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-focus-guards/v/1.1.6",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-focus-guards_1.1.6/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-focus-scope",
+      "version": "1.2.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-focus-scope/v/1.2.0",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-focus-scope_1.2.0/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-form",
+      "version": "0.2.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-form/v/0.2.0",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-form_0.2.0/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-hover-card",
+      "version": "1.1.24",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-hover-card/v/1.1.24",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-hover-card_1.1.24/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-id",
+      "version": "1.1.4",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-id/v/1.1.4",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-id_1.1.4/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-label",
+      "version": "2.1.16",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-label/v/2.1.16",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-label_2.1.16/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-menu",
+      "version": "2.1.25",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-menu/v/2.1.25",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-menu_2.1.25/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-menubar",
+      "version": "1.1.25",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-menubar/v/1.1.25",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-menubar_1.1.25/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-navigation-menu",
+      "version": "1.3.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-navigation-menu/v/1.3.0",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-navigation-menu_1.3.0/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-one-time-password-field",
+      "version": "0.1.17",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-one-time-password-field/v/0.1.17",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-one-time-password-field_0.1.17/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-password-toggle-field",
+      "version": "0.1.12",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-password-toggle-field/v/0.1.12",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-password-toggle-field_0.1.12/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-popover",
+      "version": "1.2.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-popover/v/1.2.0",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-popover_1.2.0/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-popper",
+      "version": "1.3.8",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-popper/v/1.3.8",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-popper_1.3.8/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-portal",
+      "version": "1.1.18",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-portal/v/1.1.18",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-portal_1.1.18/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-presence",
+      "version": "1.1.11",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-presence/v/1.1.11",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-presence_1.1.11/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-primitive",
+      "version": "2.1.11",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-primitive/v/2.1.11",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-primitive_2.1.11/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-progress",
+      "version": "1.1.17",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-progress/v/1.1.17",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-progress_1.1.17/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-radio-group",
+      "version": "1.4.8",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-radio-group/v/1.4.8",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-radio-group_1.4.8/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-roving-focus",
+      "version": "1.1.20",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-roving-focus/v/1.1.20",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-roving-focus_1.1.20/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-scroll-area",
+      "version": "1.3.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-scroll-area/v/1.3.0",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-scroll-area_1.3.0/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-select",
+      "version": "2.3.8",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-select/v/2.3.8",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-select_2.3.8/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-separator",
+      "version": "1.1.16",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-separator/v/1.1.16",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-separator_1.1.16/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-slider",
+      "version": "1.5.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-slider/v/1.5.0",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-slider_1.5.0/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-slot",
+      "version": "1.4.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-slot/v/1.4.0",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-slot_1.4.0/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-switch",
+      "version": "1.3.8",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-switch/v/1.3.8",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-switch_1.3.8/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-tabs",
+      "version": "1.1.22",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-tabs/v/1.1.22",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-tabs_1.1.22/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-toast",
+      "version": "1.2.24",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-toast/v/1.2.24",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-toast_1.2.24/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-toggle",
+      "version": "1.1.19",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-toggle/v/1.1.19",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-toggle_1.1.19/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-toggle-group",
+      "version": "1.1.20",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-toggle-group/v/1.1.20",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-toggle-group_1.1.20/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-toolbar",
+      "version": "1.1.20",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-toolbar/v/1.1.20",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-toolbar_1.1.20/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-tooltip",
+      "version": "1.3.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-tooltip/v/1.3.0",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-tooltip_1.3.0/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-use-callback-ref",
+      "version": "1.1.4",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-use-callback-ref/v/1.1.4",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-use-callback-ref_1.1.4/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-use-controllable-state",
+      "version": "1.2.6",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-use-controllable-state/v/1.2.6",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-use-controllable-state_1.2.6/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-use-effect-event",
+      "version": "0.0.5",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-use-effect-event/v/0.0.5",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-use-effect-event_0.0.5/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-use-escape-keydown",
+      "version": "1.1.5",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-use-escape-keydown/v/1.1.5",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-use-escape-keydown_1.1.5/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-use-is-hydrated",
+      "version": "0.1.3",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-use-is-hydrated/v/0.1.3",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-use-is-hydrated_0.1.3/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-use-layout-effect",
+      "version": "1.1.4",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-use-layout-effect/v/1.1.4",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-use-layout-effect_1.1.4/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-use-previous",
+      "version": "1.1.4",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-use-previous/v/1.1.4",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-use-previous_1.1.4/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-use-rect",
+      "version": "1.1.4",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-use-rect/v/1.1.4",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-use-rect_1.1.4/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-use-size",
+      "version": "1.1.5",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-use-size/v/1.1.5",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-use-size_1.1.5/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/react-visually-hidden",
+      "version": "1.2.12",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/react-visually-hidden/v/1.2.12",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_react-visually-hidden_1.2.12/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@radix-ui/rect",
+      "version": "1.1.3",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@radix-ui/rect/v/1.1.3",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_radix-ui_rect_1.1.3/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@types/react",
+      "version": "19.3.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@types/react/v/19.3.0",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "scope": "开发构建测试依赖；组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_types_react_19.3.0/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "@types/react-dom",
+      "version": "19.3.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/@types/react-dom/v/19.3.0",
+      "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "scope": "开发构建测试依赖；组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/_types_react-dom_19.3.0/LICENSE",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "aria-hidden",
+      "version": "1.2.6",
+      "license": "MIT",
+      "author": "Anton Korzunov",
+      "source": "https://www.npmjs.com/package/aria-hidden/v/1.2.6",
+      "repository": "git+https://github.com/theKashey/aria-hidden.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/aria-hidden_1.2.6/LICENSE",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "class-variance-authority",
+      "version": "0.7.1",
+      "license": "Apache-2.0",
+      "author": "Joe Bell (https://joebell.co.uk)",
+      "source": "https://www.npmjs.com/package/class-variance-authority/v/0.7.1",
+      "repository": "https://github.com/joe-bell/cva.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/class-variance-authority_0.7.1/LICENSE",
+          "sha256": "0ccbf956cffc8dcf515809433cb5242ee67c94513d46e48c261d68d0880de406"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "clsx",
+      "version": "2.1.1",
+      "license": "MIT",
+      "author": "Luke Edwards",
+      "source": "https://www.npmjs.com/package/clsx/v/2.1.1",
+      "repository": "lukeed/clsx",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/clsx_2.1.1/license",
+          "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "cmdk",
+      "version": "1.1.1",
+      "license": "MIT",
+      "author": "Paco",
+      "source": "https://www.npmjs.com/package/cmdk/v/1.1.1",
+      "repository": "git+https://github.com/pacocoursey/cmdk.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/cmdk_1.1.1/LICENSE.md",
+          "sha256": "b5acfd21b3b61508365224c40ec1b03ec71091248baaf989d4be916551e7d532"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "author": "Fredrik Nicol",
+      "source": "https://www.npmjs.com/package/csstype/v/3.2.3",
+      "repository": "https://github.com/frenic/csstype",
+      "scope": "开发构建测试依赖；组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/csstype_3.2.3/LICENSE",
+          "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "detect-node-es",
+      "version": "1.1.0",
+      "license": "MIT",
+      "author": "Ilya Kantor",
+      "source": "https://www.npmjs.com/package/detect-node-es/v/1.1.0",
+      "repository": "https://github.com/thekashey/detect-node",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/detect-node-es_1.1.0/LICENSE",
+          "sha256": "54b32293ea560d22cd9b62af9b2cda1a030d910a48c6601d227c5ff2338d95f8"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "framer-motion",
+      "version": "12.43.0",
+      "license": "MIT",
+      "author": "Matt Perry",
+      "source": "https://www.npmjs.com/package/framer-motion/v/12.43.0",
+      "repository": "https://github.com/motiondivision/motion/",
+      "scope": "组件运行与宿主依赖；预览运行依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/framer-motion_12.43.0/LICENSE.md",
+          "sha256": "5ff46083b88563822b0560dd6221ab89d2f74bc97a52d4c97a75020fd62c6f32"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "get-nonce",
+      "version": "1.0.1",
+      "license": "MIT",
+      "author": "Anton Korzunov",
+      "source": "https://www.npmjs.com/package/get-nonce/v/1.0.1",
+      "repository": "git@github.com:theKashey/get-nonce.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/get-nonce_1.0.1/LICENSE",
+          "sha256": "acf3b087b348d2f2e731b9d4131af185aad694c1204ce14a46909483fd42da05"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "input-otp",
+      "version": "1.5.0",
+      "license": "MIT",
+      "author": "Guilherme Rodz",
+      "source": "https://www.npmjs.com/package/input-otp/v/1.5.0",
+      "repository": "git+https://github.com/guilhermerodz/input-otp.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/input-otp_1.5.0/LICENSE",
+          "sha256": "079031192fea535a245aa64a637d8433c406b82a14f91c3606b1d63e41c00152"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "lodash.debounce",
+      "version": "4.0.8",
+      "license": "MIT",
+      "author": "John-David Dalton (http://allyoucanleet.com/)",
+      "source": "https://www.npmjs.com/package/lodash.debounce/v/4.0.8",
+      "repository": "lodash/lodash",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/lodash.debounce_4.0.8/LICENSE",
+          "sha256": "ffd8b33b354585f4ce119f19c53728281e48a97b074491eb6bf6d5c5ff305272"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "motion",
+      "version": "12.43.0",
+      "license": "MIT",
+      "author": "Matt Perry",
+      "source": "https://www.npmjs.com/package/motion/v/12.43.0",
+      "repository": "https://github.com/motiondivision/motion",
+      "scope": "组件运行与宿主依赖；预览运行依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/motion_12.43.0/LICENSE.md",
+          "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "motion-dom",
+      "version": "12.43.0",
+      "license": "MIT",
+      "author": "Matt Perry",
+      "source": "https://www.npmjs.com/package/motion-dom/v/12.43.0",
+      "repository": "https://github.com/motiondivision/motion",
+      "scope": "组件运行与宿主依赖；预览运行依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/motion-dom_12.43.0/LICENSE.md",
+          "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "motion-utils",
+      "version": "12.39.0",
+      "license": "MIT",
+      "author": "Matt Perry",
+      "source": "https://www.npmjs.com/package/motion-utils/v/12.39.0",
+      "repository": "https://github.com/motiondivision/motion",
+      "scope": "组件运行与宿主依赖；预览运行依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/motion-utils_12.39.0/LICENSE.md",
+          "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "radix-ui",
+      "version": "1.7.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/radix-ui/v/1.7.0",
+      "repository": "git+https://github.com/radix-ui/primitives.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/radix-ui_1.7.0/LICENSE",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "react",
+      "version": "19.2.7",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/react/v/19.2.7",
+      "repository": "https://github.com/facebook/react.git",
+      "scope": "开发构建测试依赖；组件运行与宿主依赖；预览运行依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/react_19.2.7/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "react-dom",
+      "version": "19.2.7",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/react-dom/v/19.2.7",
+      "repository": "https://github.com/facebook/react.git",
+      "scope": "开发构建测试依赖；组件运行与宿主依赖；预览运行依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/react-dom_19.2.7/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "react-remove-scroll",
+      "version": "2.7.2",
+      "license": "MIT",
+      "author": "Anton Korzunov",
+      "source": "https://www.npmjs.com/package/react-remove-scroll/v/2.7.2",
+      "repository": "https://github.com/theKashey/react-remove-scroll",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/react-remove-scroll_2.7.2/LICENSE",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "react-remove-scroll-bar",
+      "version": "2.3.8",
+      "license": "MIT",
+      "author": "Anton Korzunov",
+      "source": "https://www.npmjs.com/package/react-remove-scroll-bar/v/2.3.8",
+      "repository": "https://github.com/theKashey/react-remove-scroll-bar",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/upstream/react-remove-scroll-bar_2.3.8/LICENSE",
+          "sha256": "a79aae0c0f21990d9d963bb3c5a79cdcea9a46f8523ba55c58d7fe776b6ebc84"
+        }
+      ],
+      "evidence": "已附上游许可与对应依据；2.3.8 与 gitHead 可解析的 2.3.7 tarball 除 package.json 外 26 个文件逐字节一致；2.3.7 提交的直接子提交仅新增 LICENSE。以相同源码和上游新增许可作为替代证据，2.3.8 自身 gitHead 仍不可解析。"
+    },
+    {
+      "name": "react-style-singleton",
+      "version": "2.2.3",
+      "license": "MIT",
+      "author": "Anton Korzunov (thekashey@gmail.com)",
+      "source": "https://www.npmjs.com/package/react-style-singleton/v/2.2.3",
+      "repository": "https://github.com/theKashey/react-style-singleton",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/react-style-singleton_2.2.3/LICENSE",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "scheduler",
+      "version": "0.27.0",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/scheduler/v/0.27.0",
+      "repository": "https://github.com/facebook/react.git",
+      "scope": "开发构建测试依赖；组件运行与宿主依赖；预览运行依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/scheduler_0.27.0/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "sonner",
+      "version": "2.0.8",
+      "license": "MIT",
+      "author": "Emil Kowalski",
+      "source": "https://www.npmjs.com/package/sonner/v/2.0.8",
+      "repository": "git+https://github.com/emilkowalski/sonner.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/sonner_2.0.8/LICENSE.md",
+          "sha256": "da9201378c36ffd81f51ad0b305f3f0981e90bc558789210ad65d1161eec3b7d"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "tailwind-merge",
+      "version": "3.7.0",
+      "license": "MIT",
+      "author": "Dany Castillo",
+      "source": "https://www.npmjs.com/package/tailwind-merge/v/3.7.0",
+      "repository": "https://github.com/dcastil/tailwind-merge.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/tailwind-merge_3.7.0/LICENSE.md",
+          "sha256": "d4c70c7ce38cea8778f0aed3fc0bef0a9dbd27f13bd8b6773cbd6d37941971e5"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "license": "MIT",
+      "author": "",
+      "source": "https://www.npmjs.com/package/tailwindcss/v/4.3.3",
+      "repository": "https://github.com/tailwindlabs/tailwindcss.git",
+      "scope": "开发构建测试依赖；组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/tailwindcss_4.3.3/LICENSE",
+          "sha256": "60e0b68c0f35c078eef3a5d29419d0b03ff84ec1df9c3f9d6e39a519a5ae7985"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "tslib",
+      "version": "2.8.1",
+      "license": "0BSD",
+      "author": "Microsoft Corp.",
+      "source": "https://www.npmjs.com/package/tslib/v/2.8.1",
+      "repository": "https://github.com/Microsoft/tslib.git",
+      "scope": "组件运行与宿主依赖；预览运行依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/tslib_2.8.1/CopyrightNotice.txt",
+          "sha256": "da16ddb65f8ca390998fb99223d0112498b56b45784d00afd77ff8ce1ac4de8b"
+        },
+        {
+          "path": "licenses/npm/tslib_2.8.1/LICENSE.txt",
+          "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "tw-animate-css",
+      "version": "1.4.0",
+      "license": "MIT",
+      "author": "Luca Bosin",
+      "source": "https://www.npmjs.com/package/tw-animate-css/v/1.4.0",
+      "repository": "Wombosvideo/tw-animate-css",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/tw-animate-css_1.4.0/LICENSE",
+          "sha256": "039184dfa0a822397b3f45a435b5b1e538721587fbade96b9fa80f86cb354109"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "use-callback-ref",
+      "version": "1.3.3",
+      "license": "MIT",
+      "author": "theKashey",
+      "source": "https://www.npmjs.com/package/use-callback-ref/v/1.3.3",
+      "repository": "https://github.com/theKashey/use-callback-ref/",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/use-callback-ref_1.3.3/LICENSE",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "use-sidecar",
+      "version": "1.1.3",
+      "license": "MIT",
+      "author": "theKashey",
+      "source": "https://www.npmjs.com/package/use-sidecar/v/1.1.3",
+      "repository": "https://github.com/theKashey/use-sidecar",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/use-sidecar_1.1.3/LICENSE",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "usehooks-ts",
+      "version": "3.1.1",
+      "license": "MIT",
+      "author": "Julien CARON",
+      "source": "https://www.npmjs.com/package/usehooks-ts/v/3.1.1",
+      "repository": "https://github.com/juliencrn/usehooks-ts",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/usehooks-ts_3.1.1/LICENSE",
+          "sha256": "24eefa8efca11bec72b94aba31f5d38afc49debbfdb58ec3e3ae9fe24a828cca"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    },
+    {
+      "name": "vaul",
+      "version": "1.1.2",
+      "license": "MIT",
+      "author": "Emil Kowalski",
+      "source": "https://www.npmjs.com/package/vaul/v/1.1.2",
+      "repository": "https://github.com/emilkowalski/vaul.git",
+      "scope": "组件运行与宿主依赖",
+      "licenseFiles": [
+        {
+          "path": "licenses/npm/vaul_1.1.2/LICENSE.md",
+          "sha256": "b09b9ccf866cc09b502d9cf4679e2461beb1469709ea0c6a30009766e10b3acf"
+        }
+      ],
+      "evidence": "已附包内许可文本"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Inter",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)",
+      "licenseFiles": [
+        {
+          "path": "licenses/fonts/inter-OFL.txt",
+          "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/fonts/webfont-000.woff2",
+          "sha256": "fccca918fea40089dacadc7045861314d1a6bc91f1f323cc1eeb22ebcdb321b5",
+          "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-001.woff2",
+          "sha256": "aebf2ab4a4ce6810d73c1ac7be7cafb4e5ec4cee2d6db5fb3e09691747ec4bd6",
+          "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-002.woff2",
+          "sha256": "a2e2c783ca6f9c20486e81e72a279203e86730bbf8f01ff6a5ee9dbd09e1c271",
+          "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-003.woff2",
+          "sha256": "46dd4cdca58c26ae87cc6927657bf83b2e8abfc39ffd0ab176e301a8d28d22bf",
+          "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-004.woff2",
+          "sha256": "8db00ff46c67b22cda8bed865acf7077651cac8d2841d5b40980556b48961931",
+          "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-005.woff2",
+          "sha256": "a28eb6d3ccb534ae0c94ca999371df024aab60b08c3c8a5720ee9e32fa0faaa2",
+          "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-006.woff2",
+          "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+          "source": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2"
+        }
+      ]
+    },
+    {
+      "name": "Noto Sans SC",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'",
+      "licenseFiles": [
+        {
+          "path": "licenses/fonts/notosanssc-OFL.txt",
+          "sha256": "babcfe66c8a098b2fa279bc724a3a342f8124f77ce18941fbcc1bbb39823cded"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/fonts/webfont-007.woff2",
+          "sha256": "3045d947c7d78678a5ae0c4b356ec0bda8c8d8513599b9702ecdc1190e90136f",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.4.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-008.woff2",
+          "sha256": "62e9d990f68bf1921eec30b7a19a9bd64af5dc5af0964246a1673920589cbb92",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.5.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-009.woff2",
+          "sha256": "1b09d45bc4fa14fd7164723c52b997fb0db464630adad7baeef05fabd02a1155",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.6.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-010.woff2",
+          "sha256": "6689c10783e90ce2e3ad11bce8b33a05deecde83ad6561a63f50dcc120c92dc4",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.21.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-011.woff2",
+          "sha256": "de53fb4fed079a6270971a5a4f20e8501191ffd8846a3cbfbc19c3f1d3fd6925",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.22.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-012.woff2",
+          "sha256": "ce48c8f42ed1659df11fa8c9d3d57596afb5383d3537e1a70c836b2cc699db1a",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.23.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-013.woff2",
+          "sha256": "5b91a58010929377e94cd5c64c26c57b10a417687371138ef77627b907370bb8",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.24.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-014.woff2",
+          "sha256": "ce6a9f5fc5666236b9481e5d93aba8fac485a933a2f024c9345d031cbca40c4a",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.25.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-015.woff2",
+          "sha256": "4b74cab2d8e2b3c07b050fcbde8adc41a6193bbdb78c32001491d2950b5e6956",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.26.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-016.woff2",
+          "sha256": "f62b9ab15b8bef2bcb3529008cefd25c12ef804e0cf88d01d33be1441bb43d0c",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.27.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-017.woff2",
+          "sha256": "d81380d9dd8d05680d3d2ba7fa9a831473f7d340b6ce32af11063b4d73118ca3",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.28.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-018.woff2",
+          "sha256": "96d17ca1177682c2073ac7f905d1cc529ba43495275f93391e45f663039cb43d",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.29.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-019.woff2",
+          "sha256": "72d3f5812086c592a09fca4584779f59ad6349c43208922efe84347c915c0957",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.30.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-020.woff2",
+          "sha256": "dfa871e4db4e5582d077c6be55222da33ac6e8f39cd33e6ed8f7fdd058b796e4",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.31.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-021.woff2",
+          "sha256": "5fc65f704d01095033e6c459682bdc993714bd4ee0734d3d1e49286648173987",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.32.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-022.woff2",
+          "sha256": "4136c39ad0909016b4eb11c6705ba6ff75e0af6eeddf9cc0908120b2897f95ab",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.33.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-023.woff2",
+          "sha256": "e459c174c5fd1d360072fab540c2d833f8d3350a927b01cca3f88148aaec3cf7",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.34.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-024.woff2",
+          "sha256": "b6baabe9aaac2371672ce830f078a90e0fb57dae37ef0926c61a11bc41fbafd3",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.35.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-025.woff2",
+          "sha256": "0af4fd643eb6e631776dd62b433c259ba73c36f93c7e3f358b8106a8761f1e7f",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.36.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-026.woff2",
+          "sha256": "c044d116dc8f655dd794a7d87eaa7dfe9a9371ddf1eef99af0e37b72f47475ee",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.37.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-027.woff2",
+          "sha256": "9bab402ba033334906b2478832ca6622fb382e97bbbe51a12df9065625e9497e",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.38.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-028.woff2",
+          "sha256": "c19eb125aee260696faefab99bea783f62279d9d763d45a316a62770644bfe31",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.39.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-029.woff2",
+          "sha256": "cb019c3783d8da86144e2cc42b718dbe592ececafe2640ca77ebb6c9082c60e2",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.40.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-030.woff2",
+          "sha256": "b7d51765c99c0ecb44ba17ac44d35f231e6662afcb5f773064cac2ae67bbe8bb",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.41.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-031.woff2",
+          "sha256": "f2099ad4a19de114d46b3c4d32353240f885ec76c09b95e65d15e36090d56add",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.42.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-032.woff2",
+          "sha256": "356fe3740509fe66b6265db7b0f60e7a4485e1b7719c004f8abf3d642d52d747",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.43.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-033.woff2",
+          "sha256": "2d43f90aef16dde8420af269b952483ec67474f7b729a8d689f6b2bf77bca558",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.44.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-034.woff2",
+          "sha256": "6434ae9a8b511ac4661ae9edc7b1848c15cb13c65d4e1ec48e8b69a4c80174e3",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.45.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-035.woff2",
+          "sha256": "ffc12c1cfc6d27bf9c76e32d31f04cbc6db87a0eb502e4ccecbbee6f3b011ff6",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.46.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-036.woff2",
+          "sha256": "c1fc78539235f6468a2be89b59fba2a2316afad88dc2e1f602aeab5afebda98f",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.47.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-037.woff2",
+          "sha256": "d5683769e4748479ff987ec25234b997e75d67795279c8740625801ec3f84dc3",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.48.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-038.woff2",
+          "sha256": "9b749147b8cb1aafb56c2515cfd804ff5022b13e29d1803640a12361899b0174",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.49.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-039.woff2",
+          "sha256": "03aa9df5058c995bb5805907cc35bd159b00f77e4aea30e7df68f7b39acbd69d",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.50.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-040.woff2",
+          "sha256": "640eba7a58c43bc7642f1bb1a402e831daad1b9e57d1a86f3169f36c212be619",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.51.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-041.woff2",
+          "sha256": "add8a0bfe4ac000894bc5bc115f7bc6aa26d4a8b52c1835c15c880c503ae2ec2",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.52.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-042.woff2",
+          "sha256": "7c23510d150928c1d41605a433f47923a6763a2c98675b02c71c16f3fa876a22",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.53.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-043.woff2",
+          "sha256": "1e0821cd2e0bbd587e4e7417109ec3656f2480d0e961a7ddfa60e0dcdb3b4520",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.54.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-044.woff2",
+          "sha256": "531d6a5dc22f7b69084100c07a9caa07724910703f7234e8e36603b47adb25b8",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.55.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-045.woff2",
+          "sha256": "3562cf3416a92cb9f2831407857ff1b70f0f14e66671f55fc818fa2a8411d192",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.56.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-046.woff2",
+          "sha256": "dbbdc3ebf4296eacf3e96da6872d4eb1985a7e2040211a8112e76e98968bce04",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.57.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-047.woff2",
+          "sha256": "32555d5143d763f175af8fc718faf83d39db9fe0c108c41c1bb5abc8331c0e58",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.58.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-048.woff2",
+          "sha256": "b287c69afa5039a593ac30765c362fb3cf4b8e397de66d5e11b931df8a4ca4e8",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.59.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-049.woff2",
+          "sha256": "f5bc6961ea42aee6c8c7669c52485c7e4682c3e189eb478dc9295f9c2965ea94",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.60.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-050.woff2",
+          "sha256": "a0cf1ee49edfa5e58bac8b599e0005f2a98945eee65205166c8849fa3a41e699",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.61.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-051.woff2",
+          "sha256": "9f92796490e4baf1c7a3e431351def75097a4ef211d0903ef081932a95235046",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.62.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-052.woff2",
+          "sha256": "ee44006cb7c5a9dd0786f97a246a07717511483090c7cbd4354795dddb157a15",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.63.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-053.woff2",
+          "sha256": "8c2c0472d514eabb192f3c2c47fcb8c7e33895a3a96a0e1b021239cca115e453",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.64.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-054.woff2",
+          "sha256": "5e7eeacc84fb0e14511ba8b5ac81cf4d3203127e554d90999edd8087f56698b2",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.65.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-055.woff2",
+          "sha256": "f566efbed79d24085d19f7b6eac7adff4ab01a5dd66db0c53d4a847c8816c531",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.66.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-056.woff2",
+          "sha256": "52d01e2db91fdaabb65c1c1f931b53a141fab818ec1e7ecca29742fef6c61d3c",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.67.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-057.woff2",
+          "sha256": "e7fccadb948a87765794c78194d86704802d91b61d4da04614a948eb2e0ecb41",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.68.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-058.woff2",
+          "sha256": "cea85861c06f2116541c421f5ddef5e2fff1b91f004e48fac8af204b8bac8486",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.69.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-059.woff2",
+          "sha256": "75978a089957153f0714dcff4594f6469893395a343a360c0bf86a96e17d7c8a",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.70.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-060.woff2",
+          "sha256": "7bb430b6f7a4cb6a6f3d946c2bc0571150b4601dd12a8792a140f2845d88bd70",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.71.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-061.woff2",
+          "sha256": "ee2c85ff2b5207630bf4cb863ec5ef3992d28f2bbbea0a905a861cbd63dde4b5",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.72.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-062.woff2",
+          "sha256": "4f9a99a8d9e893c18580b6a48fe1ba08d33eaa610e62b0075cebcde4d8b6d7eb",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.73.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-063.woff2",
+          "sha256": "a4b3be19a7a70889fd7a334d1b1573bdef8b20189f99b1c05a5f1aa044cd7cf3",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.74.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-064.woff2",
+          "sha256": "9692ba2d33aa4c795956987e14366575ecbc352981ae6a7114bd457727cddd93",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.75.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-065.woff2",
+          "sha256": "a7f1e42cbf1209626de1ebea6241482aae14f50bf60020a3b969104c226bbadb",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.76.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-066.woff2",
+          "sha256": "59b1d13bedcf5c12a08ab972040bbc1d8eab7e40cf582b088997f5d08eca068d",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.77.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-067.woff2",
+          "sha256": "5dd5e84947322ad943769aa36d9134b8233fa4221e542babe98b64f824d79c6f",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.78.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-068.woff2",
+          "sha256": "1195229dca099d5129fac3f4a4a8abbd6e60a454980bf1ae1897543a2284475a",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.79.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-069.woff2",
+          "sha256": "475a845fd23f4cbedac5c89189133462ac3e4f76adae2ba5f464c49b9f27c929",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.80.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-070.woff2",
+          "sha256": "5a35370c68dbb4ce5b263b4a8326513f4ab94337f66197dca1b2810f3de9a7a9",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.81.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-071.woff2",
+          "sha256": "2db38a16cd11d3d80c8186afd70f57aa833f341721aa487fc23c0accda01ef7d",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.82.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-072.woff2",
+          "sha256": "e90d33efb8e09c9a4d4c061f59c035fa8ebd6d8fe3824c29eb1abfc0d7e9d9c1",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.83.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-073.woff2",
+          "sha256": "adcf9fc8f639e955c89082a77f818c98f7b909f05a6fdf875dd0174613801123",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.84.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-074.woff2",
+          "sha256": "d7b2b43c6cf022f319e90b568557f60f0b7058ab9a1b60cce599df090922cec3",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.85.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-075.woff2",
+          "sha256": "2760361e7fd0e0ca8a5c671f684a1e908afbf8be519da247fc5e0926711e960b",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.86.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-076.woff2",
+          "sha256": "113ed2e5fe033476c8da28cf8608dd374d29e144871749489d9a6b4731f85a62",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.87.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-077.woff2",
+          "sha256": "c973e4713ca031d7f2d154bfdeb111add88df7ae88dcdab98e8ba70228636362",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.88.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-078.woff2",
+          "sha256": "9e1f1f766eb3b9e4f5b6f0bfa525789a43bb83f636a93a034ed66c93dac2f0ea",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.89.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-079.woff2",
+          "sha256": "3d0d06b73960ab03119d5502142dae3a408ad815d8efbc7d9a016735fd654d80",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.90.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-080.woff2",
+          "sha256": "f8f2f31e0d4c161b826c4f3622a44913934b0dd050151b51bc4580879e23216e",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.91.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-081.woff2",
+          "sha256": "adbe40605d1781449c8eb55df80bb53f52f331e97ea0d35fe1c2d53a6034d881",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.97.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-082.woff2",
+          "sha256": "57a0369c4b77675ba1a1fb082ddbe1e7295734774420d5327b83a79af7edae75",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.98.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-083.woff2",
+          "sha256": "3d483f5a29464e66102be7eccbecc5789cc413aefcdbd2b411fff907c54012f6",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.99.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-084.woff2",
+          "sha256": "43196b8058bd55a6ac484704118b5e6196d0ed6ec3265b2bdbda7bf888f120fc",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.100.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-085.woff2",
+          "sha256": "81643939573a897901647110fcd7dbc0315beb87979a2c0ba56fb50da012755c",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.101.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-086.woff2",
+          "sha256": "f81693a776e30ff9a45567eaa15d9a0bed038649007a61e75ecd0e780ab257c7",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.102.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-087.woff2",
+          "sha256": "b21735210b7eee7a48d74426275c0c6ba8f81cc9049b147a8222e25529feef00",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.103.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-088.woff2",
+          "sha256": "fbed7260234ad0056ecd2c729e3896d00678322d9db9d177f41ccc120264d3e6",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.104.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-089.woff2",
+          "sha256": "dbe0b5a015af24b6708bf24fdb477f68b7085ece81f2e333c00b24815a90b68c",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.105.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-090.woff2",
+          "sha256": "369278225da93c7bda480f501d7ca9f004acaff1bdd3d60df874eddaae27f69b",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.106.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-091.woff2",
+          "sha256": "220acde2a122a7608737ce22da353b6788aa79af2bed9ded842cbbe446694540",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.107.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-092.woff2",
+          "sha256": "8fd5870c4b22c2015c5a54a02ea9fec7c0102abff26599cf4b03cd2aaf3f58c5",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.108.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-093.woff2",
+          "sha256": "35dddbc7b5c78f1dfaee0c9eb8852432a46fee2e9b05ede476b9c47890fa1ed4",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.109.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-094.woff2",
+          "sha256": "d32e7ca8037160ed0dabff758b75da2a39722fbc49567bb1dc11436da39d61f7",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.110.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-095.woff2",
+          "sha256": "fbd62ca155ea7a785493b418c7076493d3ed73acc581f0e4dfbb7cf675f98043",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.111.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-096.woff2",
+          "sha256": "9efef22fce6ed4d723ce957f7616e6c280689406b54f3c89bfd8833e3a0312e7",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.112.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-097.woff2",
+          "sha256": "2a169d8dc2ebf18d4ba3a646b7926e2ea8f03371daa8a33aa5aa4e222a30fcb4",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.113.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-098.woff2",
+          "sha256": "58f780a2d2b3f293d50b1a3b7026a812273d1923af861a5046ff0f94d5335032",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.114.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-099.woff2",
+          "sha256": "2938d56727e9fe32bd83c6410aef59ed9af9528f23fa224a3413538d8231a842",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.115.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-100.woff2",
+          "sha256": "98f590f9f68914d4e439e6151a85a4f1cba30a66e904305a74f81a3f470dd044",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.116.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-101.woff2",
+          "sha256": "3a2247284b74fa6a2ccd10107365f259a00744041551363476b92318f434339e",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.117.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-102.woff2",
+          "sha256": "4b594f04215780f690da15990ef2a1e5ac82f2f3a4d9cb91713d83d379c983f6",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.118.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-103.woff2",
+          "sha256": "6d088e37bdc27339bb4c82d4bfe0966849df0cef5872fc99b81025f2488f42d8",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.119.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-104.woff2",
+          "sha256": "6a1a698b9a7fe536169d8f69c6d1c2d23c975816db7cec2345ae41a81cc544ca",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALRKoKI2w328pSb.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-105.woff2",
+          "sha256": "0911100b53608b380eab7bf0f879a5418e6a0839968e75424055e3c0cb3189b9",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALRIYKI2w328pSb.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-106.woff2",
+          "sha256": "c3d4250403511b3fae48d031c22ecfe15696209abc9576f86a810e844d32bdc3",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALRIIKI2w328pSb.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-107.woff2",
+          "sha256": "71b55199d1490a0c4ba7795ee1adb6460c2235454809d24b17a93d61c2d131ff",
+          "source": "https://fonts.gstatic.com/s/notosanssc/v41/k3kXo84MPvpLmixcA63oeALRLoKI2w328g.woff2"
+        }
+      ]
+    },
+    {
+      "name": "Noto Serif SC",
+      "license": "OFL-1.1",
+      "copyright": "Copyright 2012 Google Inc. All Rights Reserved.",
+      "licenseFiles": [
+        {
+          "path": "licenses/fonts/notoserifsc-OFL.txt",
+          "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/fonts/webfont-108.woff2",
+          "sha256": "ebe07064881bbfab65b1afc054cf484d77440374d98a138bf66d44cf5c671e59",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.4.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-109.woff2",
+          "sha256": "82ba14bc2a7b76279c2b07af677bafdc7af85eca8c145c9aba2446f80315c286",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.5.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-110.woff2",
+          "sha256": "2c7385493055759bb67da7ddf9e88375a5c335c8693aabaaa83810d02c09ffb7",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.6.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-111.woff2",
+          "sha256": "67d2655f88a0451e16d24831795ecc3f497feef462b2dae5a91dd0bc0c517172",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.21.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-112.woff2",
+          "sha256": "36b0ad95f7484b64dabb96fcf83423c8e5fdd343290467a38f9fad93d3fe2bbc",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.22.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-113.woff2",
+          "sha256": "34de79ce62e48683ab06d69a248d275911403326cb26f91e081b0ed7105059a6",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.23.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-114.woff2",
+          "sha256": "740e31fb7861be945ef6a565aeca97b49b4d5573f1c148aa4d6ada67619c2e37",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.24.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-115.woff2",
+          "sha256": "cbd375808a8f32d3bf51e277d238f9de60a56ec1c3c791a61993bf5cb2864b03",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.25.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-116.woff2",
+          "sha256": "c93234bd053cc53f0f71f1cc13565b2d1f6bec16d4ebc90420430c06541c4f4d",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.26.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-117.woff2",
+          "sha256": "3fa16c7d779824151a721cf2101aa3acda5b843f5e094e7602aa9ab258eb08fe",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.27.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-118.woff2",
+          "sha256": "c5f3e637af016af27ab86cfbd694243dce1d6b3c3562377803ff7f70188ff80c",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.28.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-119.woff2",
+          "sha256": "ae5cdcb1c4faf5acef0b9045f060a8e83d7c3266a4fe8ab930dd023ebf22870e",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.29.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-120.woff2",
+          "sha256": "7240ed44b7738d40ffd8c01dd46ddc674fb329b7e46b307880d4fe69e4ce846f",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.30.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-121.woff2",
+          "sha256": "14be1e31de35528e95e5732b588f3c6d25a14117e152fd94f7f1677f709b01e7",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.31.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-122.woff2",
+          "sha256": "973a1037dceead92639ef647fdb7526c40846e3428976198c4ab04596ecee072",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.32.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-123.woff2",
+          "sha256": "0a47a21c2e7dca05341574000500a55eaa7e21e6bfa9a9f1a6323303b4101c60",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.33.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-124.woff2",
+          "sha256": "2e7fd9066d4e2e3da7be15336a87da9d1725cbe4f796cd9c3a969d80f048100a",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.34.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-125.woff2",
+          "sha256": "b6ce0831978c5889d28317fc03ba5d2ab08384976b1841e578f2edc66876abd9",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.35.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-126.woff2",
+          "sha256": "f3666a14f5ab7707c2e9ec73cb2a4075e1c66bcfddcef479c0144aaf03e09ca4",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.36.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-127.woff2",
+          "sha256": "834c8d0622f63a1ebab08a4e5da9f661c75141eb0b779c8a423b2eba418967e7",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.37.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-128.woff2",
+          "sha256": "8b3ae6c6a94924aedf8be6328745608a012f8d6042ef3ca6c3d6bb4f61bde86d",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.38.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-129.woff2",
+          "sha256": "ad1ec109702ef31152c19acc3a59e8fedbd237f15556be071d404e7ef3055e39",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.39.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-130.woff2",
+          "sha256": "c9ce19df1e39eaa09e3a60aa7b67c54c949e64f68972327c1105d1c76e61b955",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.40.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-131.woff2",
+          "sha256": "5315cd7852f4556ef0d06d95d22d6f7cde9e2fcff135134e1cec61f3d325ce2a",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.41.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-132.woff2",
+          "sha256": "19d4b346d120e63dd134d241c07b954ba26785b045f7b48e3f3a8821b5bf8403",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.42.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-133.woff2",
+          "sha256": "3538f75012bbf8d8934125d5f2701ad16075d5c0257bda002a75b3d5ac2abede",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.43.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-134.woff2",
+          "sha256": "ae2d278a2ec633ead9e47ba12d777e073cb7c5f923d0eea282268f207c88ee7a",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.44.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-135.woff2",
+          "sha256": "9576332f2a473094fb110562da8e21b547dcb69073dfe8e24167f0cf3dc3a231",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.45.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-136.woff2",
+          "sha256": "17eb7afd55036b86748f51a779b9424a2a64563e949a70fea03a71d662ce486d",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.46.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-137.woff2",
+          "sha256": "f52842471f7a4d931b81fcaa37ddcc7da2281ccc043b593c10f4dd351ad30fd2",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.47.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-138.woff2",
+          "sha256": "782452cbe372494b23f634e8b5d6c7893352def1a005c63f48b252dff79487b3",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.48.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-139.woff2",
+          "sha256": "83bf094bd8a87732a5d2e79069c22b30ca46890e18c7fc9e539612873070c204",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.49.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-140.woff2",
+          "sha256": "6ef9dbc0196f0e56763181b5ee0ac59f65c3b93b9a73e40bf0784fd41bf9fb9e",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.50.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-141.woff2",
+          "sha256": "ce58eeb39a4a8a05a5f88929082030939424aae8b7e4bf174fb31e2185f77476",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.51.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-142.woff2",
+          "sha256": "4708a6c176466c7823f3ce335ec94d5e9b008c0b0cf510f5802565887006e2b4",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.52.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-143.woff2",
+          "sha256": "bd365c058c05a9c6ef219b39a80be18443c2137767c2f3fef2249bf68c7f9b1d",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.53.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-144.woff2",
+          "sha256": "1f868051a8bf937bb03c809f1ad52dc1d2fb78037a1c4f942f0f1c4142d0e466",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.54.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-145.woff2",
+          "sha256": "5b70b8ca00cc3467f3fe5df9005fcb00e9f5d1df3a9bd945aafeecde2e9d243a",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.55.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-146.woff2",
+          "sha256": "49e34eb82b76e0ebab35f4cf977b2a4828feaca62fabbc7b0fe52954cf266771",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.56.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-147.woff2",
+          "sha256": "cfbda09fec2567865a8a761ef93062ae5f711889b7523026b0ec0ca4f7a68e92",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.57.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-148.woff2",
+          "sha256": "a866e74045fa35af957ea063623a4759955c57e1d2dece7b4f14a10a71a2d1c1",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.58.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-149.woff2",
+          "sha256": "c8476db3fbba41856cbb3c1683a97df0964b804f6818bb96d34c4325514f9fd7",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.59.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-150.woff2",
+          "sha256": "381f1fa4ceaacc9e5431b13c4aac8b936945692efb290b332642696bde00c32d",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.60.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-151.woff2",
+          "sha256": "751bd5775c805c8e26c96e062d00d7632e3b93ccc4703f366649509ab211ebaf",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.61.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-152.woff2",
+          "sha256": "0af5a04314200627801ed9dff0c8cb2526c30dc76981fcede443a06cd35aace6",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.62.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-153.woff2",
+          "sha256": "ad7f9aece198ec03ecc186052adcab633e889bbb06cd20b8c059f3e94374803e",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.63.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-154.woff2",
+          "sha256": "e46ff0466edbaacfcf88f826d2acf6658b705983d8563f62baf9a12728474504",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.64.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-155.woff2",
+          "sha256": "e5313bcb399e45e9cca8c2337314e99d3c95972e38dbe0dce5585be0dc284d7e",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.65.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-156.woff2",
+          "sha256": "6cf3eb9cad4cc2f78c164e83306cc9451bd3c4bfbacffc66fdaa9ae32da21e38",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.66.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-157.woff2",
+          "sha256": "1868620dcde3a615ff47531bb0032e0bdfcbbb7696c7b7168492940a39d519cd",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.67.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-158.woff2",
+          "sha256": "ea40e335d816d52492ef32686cb4439ff65dc65b53c8baedfcbdeab6d44514b5",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.68.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-159.woff2",
+          "sha256": "042630ccc1f10a3c076c6358ec1100579053752045e3e3b6ac9229a4b90d8c11",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.69.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-160.woff2",
+          "sha256": "67bf8f9ba0a97c38d49bb52e11ba09bbe6cb966df6d194883bdda5c017b080fa",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.70.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-161.woff2",
+          "sha256": "fb4e744db699c2b01be2831d9a090524456b800099aa42ec81a95c3225bb86ac",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.71.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-162.woff2",
+          "sha256": "d12f6642ce00cabbc23a5f7abf7b5cefb6a93554d6bfa9808398922b5e645af1",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.72.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-163.woff2",
+          "sha256": "c49561885d2802a1eb759aa7b152a0d8f68842b789f3e16089d14e697f73bb92",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.73.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-164.woff2",
+          "sha256": "4587b84a41332990e380cba554e06e5dcdda3e3e17f29b25e81447488dd89217",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.74.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-165.woff2",
+          "sha256": "4670539162ec83c4603b5cc552e8492491b54622a408bcd98101aa239c7d2930",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.75.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-166.woff2",
+          "sha256": "a7edea1ab0808d6aabe3ebade5131abdd4fcc8841c66e7b74aa0f9f6e38053aa",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.76.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-167.woff2",
+          "sha256": "6ceb5902615653f16ba0549272530f180107a9e5e8ef4503f1503637859648cc",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.77.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-168.woff2",
+          "sha256": "1b8db7f344c8b80f918a87aab300f386f3f6094a8b638d2e6a2479d582af894a",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.78.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-169.woff2",
+          "sha256": "3789541ab21901c4ada9ebc8056a24b6efcd423eef7c6b897251380f697c3193",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.79.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-170.woff2",
+          "sha256": "4769ea1f9d54b8f3ba8ad8cdced84deaf2806103d5423326c437039ecb418580",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.80.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-171.woff2",
+          "sha256": "84997861676c9bae5324a52de385c0467858d168805998d3509be31090d5ebf1",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.81.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-172.woff2",
+          "sha256": "1ff783685059ccf2299afbcf41f485a330ea888f62b95c5f2c9c83bac5f78125",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.82.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-173.woff2",
+          "sha256": "40ffb358e64eedca24fae79dd9400f47f4f8da5250bc8a5289493da9c67941ac",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.83.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-174.woff2",
+          "sha256": "8a255b870c7bd24499b1b64e7e36d691cd5ad4e02e890967158ce72d0bba241b",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.84.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-175.woff2",
+          "sha256": "c704af2f7f454c232781096f5dd48f7438174db64b40abf28963dc847045ec2a",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.85.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-176.woff2",
+          "sha256": "9d8db7dcf757cd1f0a44e585338310c3920b24297224e7213a2babdd96f5d19d",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.86.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-177.woff2",
+          "sha256": "4af6147be9f2e61c3aad5c855e12a5089c25a0d7bfe94b53d0a28eeb24729d5a",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.87.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-178.woff2",
+          "sha256": "7e395932ef1c5961d6b92263bfe71309648dcda03151d3873a3b1fa99dac0f1b",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.88.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-179.woff2",
+          "sha256": "2fea10a32b2490f49afda7a78f2d5c8ceae389933297bbb3684ea7b8181f46dd",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.89.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-180.woff2",
+          "sha256": "584785876a5f0cc425fce0736406554ad747fdc18aab43c4ad9a7e679c75e759",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.90.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-181.woff2",
+          "sha256": "fa682b1b5a08e0312c69872650ccf1075f1289c4b22b31f506e87e17c4999635",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.91.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-182.woff2",
+          "sha256": "474b4dbfe6db34fdc1b2edf4c5c8b7ebdad9ecb72c5d19dc00c1b10f5de8f010",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.97.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-183.woff2",
+          "sha256": "c5f2c63f333640d2f7c24498c0ace4447e54f3bc0751c019ed98b55a8c319c5a",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.98.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-184.woff2",
+          "sha256": "89a5c6ab5b4faa068df9c289cf79d1bab3e068f3e07b7fad019f0bc17333d1bc",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.99.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-185.woff2",
+          "sha256": "5fbbd72374f666103cd0020d9d868c52dd38622daacb5c8916fedef235bd9d15",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.100.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-186.woff2",
+          "sha256": "040f8a440574fd2012be3ab39f477fdfb1dbab2d56246dd93ab1d480176ec234",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.101.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-187.woff2",
+          "sha256": "da2512d9bb0b175f29e879e6c446d39ba5d424362106975d85141cd33fba8855",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.102.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-188.woff2",
+          "sha256": "4d168ac3cfce8c65fe31bebccff038475dde26e5e14bb5416bc628b15cac1774",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.103.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-189.woff2",
+          "sha256": "0185fd69b55fad783c63fd2ebc2da771c3fc348d7b9e8bced7f62523a8fd0d57",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.104.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-190.woff2",
+          "sha256": "bca890604cda0fca672386ec2a65d585832704c09dd628d141213fecfbb35074",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.105.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-191.woff2",
+          "sha256": "bc21568e4e0d01d44d1b5f9c214a1083cad2101e238091965274d2f0e7ddc532",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.106.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-192.woff2",
+          "sha256": "edf73233c5a0bf21fe76bb2e2941fe9a8192039630eb0bfea14c8b395cc349ea",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.107.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-193.woff2",
+          "sha256": "dbffed4fb73d0173f3bc41a8751c5c78f850f010a089ceecf85454769641e78b",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.108.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-194.woff2",
+          "sha256": "ca867a544a1fc96a8419de8ddc17e997f8c0192a3a6c474e82dc1f4c5afed57d",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.109.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-195.woff2",
+          "sha256": "c6a08b943152a46955430e673c5651423372f9d1ef50753c33e0a02ae0ed844e",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.110.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-196.woff2",
+          "sha256": "2da04fe98e7eb332524d395cd4f13d9a4626c037d77599c50e1ad731af907e6e",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.111.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-197.woff2",
+          "sha256": "803d6e7987b319aeb7c1f1c5671cb0005c50044483140832356fae0f046ca5dc",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.112.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-198.woff2",
+          "sha256": "837c860c57686f1918dbeb348ad6811e9b26992e3ac8c574ea20642790dc4bae",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.113.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-199.woff2",
+          "sha256": "d1a88f1ead7d8a19b91e6811a1e4e2114dd15516d8751d57f8f90360c289d885",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.114.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-200.woff2",
+          "sha256": "b04790c17c0380389f7cd85f9fc52d22cf1f7421df1a2ef5c759b697338ee495",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.115.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-201.woff2",
+          "sha256": "e062dfddc1d0364c84047fc25c1b4474693060ed7fb27fb7f52f55c675764715",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.116.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-202.woff2",
+          "sha256": "b5ead31a585c24abe4641086a7e5678ef7b9a8cc96f2a77bf689ba43547d23e4",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.117.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-203.woff2",
+          "sha256": "804547a4184d501f8c61adf767c4aa2a68af9be5cb89b489c19292cd4ebb4556",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.118.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-204.woff2",
+          "sha256": "a6e2b87e9556a1bfcdae2255d49d517276e92caf32f93a31cde450786bf80620",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7oqOcaThrVMcaeccjhXXDsOyAEEmuIi6j7j64sLjgBtMI1z49XW4.119.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-205.woff2",
+          "sha256": "0b3cc9c8407854735da738293268f8aee553ff22caf5accf7e544f39b6392660",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7kqWWbhppHtkoYg.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-206.woff2",
+          "sha256": "496f8f9bab7cba81520d3d11f1570cf4579e83b59c4dd018e8cc8f1512ed3732",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7kq6WbhppHtkoYg.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-207.woff2",
+          "sha256": "49cceeaa9f25f307a2dd4d3ce02bb9c33b035cbb461031c9dd2ffc1e90385557",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7kq-WbhppHtkoYg.woff2"
+        },
+        {
+          "path": "assets/fonts/webfont-208.woff2",
+          "sha256": "f844663b11201b4a6611dbd587f46cb0ce7b0416c6e9097adcc645b4c0bef9e3",
+          "source": "https://fonts.gstatic.com/s/notoserifsc/v36/H4chBXePl9DZ0Xe7gG9cyOj7kqGWbhppHtk.woff2"
+        }
+      ]
+    },
+    {
+      "name": "GFS Didot",
+      "license": "OFL-1.1",
+      "copyright": "Copyright (c) <17/12/07>, <GREEK FONT SOCIETY> (<http://www.greekfontsociety.org|gfs@greekfontsociety.org>),",
+      "licenseFiles": [
+        {
+          "path": "licenses/fonts/gfs-didot-OFL.txt",
+          "sha256": "d8ed450fdc23129e12c70a8580e08c3f45a34d8b2fd44177abf72a8b33b9b749"
+        },
+        {
+          "path": "licenses/fonts/gfs-didot-original-metadata.json",
+          "sha256": "f8b7c48208f9abf6c6e669ac75019f381854260973d6d2f95843cce8e95f3ead"
+        }
+      ],
+      "files": [
+        {
+          "path": "assets/fonts/gfs-didot.ttf",
+          "sha256": "4fc784ab824e8866eeef8ad55976b93e7e170fb1b8237fd4f8781b5b4dd297f9",
+          "source": "https://raw.githubusercontent.com/google/fonts/90abd17b4f97671435798b6147b698aa9087612f/ofl/gfsdidot/GFSDidot-Regular.ttf"
+        }
+      ]
+    }
+  ],
+  "copiedSources": [
+    {
+      "path": "web/packages/design-system/src/components/accordion.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/accordion.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/accordion.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/alert-dialog.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/alert-dialog.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/alert-dialog.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/alert.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/alert.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/alert.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/aspect-ratio.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/aspect-ratio.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/aspect-ratio.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/avatar.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/avatar.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/avatar.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/badge.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/badge.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/badge.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/breadcrumb.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/breadcrumb.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/breadcrumb.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/button-group.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/button-group.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/button-group.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/button.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/button.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/button.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/card.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/card.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/card.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/checkbox.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/checkbox.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/checkbox.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/collapsible.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/collapsible.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/collapsible.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/command.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/command.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/command.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/context-menu.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/context-menu.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/context-menu.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/dialog.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/dialog.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/dialog.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/drawer.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/drawer.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/drawer.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/dropdown-menu.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/dropdown-menu.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/dropdown-menu.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/empty.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/empty.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/empty.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/field.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/field.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/field.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/hover-card.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/hover-card.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/hover-card.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/input-group.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/input-group.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/input-group.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/input-otp.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/input-otp.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/input-otp.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/input.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/input.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/input.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/item.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/item.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/item.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/kbd.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/kbd.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/kbd.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/label.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/label.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/label.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/menubar.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/menubar.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/menubar.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/native-select.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/native-select.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/native-select.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/navigation-menu.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/navigation-menu.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/navigation-menu.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/pagination.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/pagination.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/pagination.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/popover.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/popover.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/popover.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/progress.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/progress.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/progress.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/radio-group.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/radio-group.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/radio-group.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/scroll-area.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/scroll-area.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/scroll-area.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/select.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/select.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/select.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/separator.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/separator.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/separator.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/sheet.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/sheet.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/sheet.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/skeleton.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/skeleton.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/skeleton.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/slider.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/slider.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/slider.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/sonner.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/sonner.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/sonner.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/spinner.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/spinner.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/spinner.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/switch.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/switch.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/switch.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/table.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/table.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/table.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/tabs.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/tabs.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/tabs.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/textarea.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/textarea.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/textarea.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/toggle-group.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/toggle-group.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/toggle-group.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/toggle.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/toggle.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/toggle.tsx",
+      "license": "MIT",
+      "modified": true
+    },
+    {
+      "path": "web/packages/design-system/src/components/tooltip.tsx",
+      "registry": "https://ui.shadcn.com/r/styles/radix-nova/tooltip.json",
+      "comparisonSource": "https://github.com/shadcn-ui/ui/blob/35983528c233250b990f6172f1a60df228409a37/apps/v4/styles/radix-nova/ui/tooltip.tsx",
+      "license": "MIT",
+      "modified": true
+    }
+  ],
+  "copiedLicenseFiles": [
+    {
+      "path": "licenses/copied-source/shadcn-ui-LICENSE-35983528.md",
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f"
+    }
+  ],
+  "dependencyRefresh": [
+    {
+      "date": "2026-11-03",
+      "baseCommit": "1a962893b12a4e172f303c4d3772a5b49246abda",
+      "updated": [
+        "@vitest/expect@4.1.12",
+        "@vitest/mocker@4.1.12",
+        "@vitest/pretty-format@4.1.12",
+        "@vitest/runner@4.1.12",
+        "@vitest/snapshot@4.1.12",
+        "@vitest/spy@4.1.12",
+        "@vitest/utils@4.1.12",
+        "vitest@4.1.12"
+      ],
+      "note": "Original source/font audit baseline remains in sourceCommit; only test dependency versions changed."
+    },
+    {
+      "date": "2026-11-18",
+      "baseCommit": "f3f25122ece2a7e2d52da9e0ca8136487bab98d4",
+      "updated": [
+        "minimatch@11.0.1"
+      ],
+      "added": [
+        "@isaacs/nonrecursive-glob-match@1.1.0"
+      ],
+      "removed": [
+        "minimatch@10.2.6"
+      ],
+      "note": "Security fix for GHSA-g3hv-75wg-m249 (development lint dependency of @typescript-eslint/typescript-estree); original source/font audit baseline remains in sourceCommit."
+    }
+  ],
+  "packageName": "@zooclaw/zooworkdesign",
+  "copiedSourcesLocation": "this package"
+}

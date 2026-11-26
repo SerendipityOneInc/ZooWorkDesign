@@ -1,0 +1,16 @@
+**/node_modules/
+**/dist/
+**/.next/
+**/coverage/
+**/.vite/
+**/*.tsbuildinfo
+artifacts/
+.delivery/
+preview-output/
+.screenshots/
+web/apps/preview/public/licenses/
+web/apps/preview/public/assets/licenses/
+.DS_Store
+.env*
+!.env.example
+*.tgz

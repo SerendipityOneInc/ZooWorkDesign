@@ -1,0 +1,75 @@
+name: Verify packages and preview
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v5
+        with:
+          package_json_file: web/package.json
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+      - name: Assign matching npm and preview versions
+        run: node ../scripts/prepare-delivery.mjs
+      - run: pnpm install --frozen-lockfile
+      - name: Require matching package and preview changelog notes
+        if: github.event_name != 'push' || github.event.before != '0000000000000000000000000000000000000000'
+        run: pnpm check:changelog
+      - run: pnpm build
+      - run: pnpm typecheck
+      - run: pnpm lint
+      - run: pnpm test
+      - run: pnpm test:release
+      - run: pnpm build:preview
+      - run: pnpm pack:release
+      - run: pnpm exec playwright install --with-deps chromium
+      - name: Verify component colors in light and dark themes
+        run: pnpm verify:theme
+      - run: pnpm verify:consumer
+      - name: Verify publish plan without registry writes
+        run: pnpm publish:release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: npm-packages
+          path: artifacts/
+          if-no-files-found: error
+          retention-days: 7
+          overwrite: true
+      - uses: actions/upload-artifact@v4
+        with:
+          name: design-system-preview
+          path: web/apps/preview/dist/
+          if-no-files-found: error
+          retention-days: 7
+          overwrite: true
+      - name: Build for the published GitHub Pages project path
+        run: pnpm build:preview:pages
+      - name: Verify initial scroll, command interaction and direct links in a browser
+        run: pnpm verify:preview
+      - uses: actions/upload-artifact@v4
+        with:
+          name: design-system-preview-pages
+          path: web/apps/preview/dist/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+          overwrite: true

@@ -1,0 +1,87 @@
+{
+  "name": "@zooclaw/zooworkdesign-chat",
+  "version": "0.1.0-alpha.1",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./styles.css": "./styles.css",
+    "./animation/mobius-loading": {
+      "types": "./dist/activity/mobius-loading.d.ts",
+      "import": "./dist/activity/mobius-loading.js"
+    },
+    "./tailwind.css": "./tailwind.css"
+  },
+  "scripts": {
+    "lint": "eslint src/ --max-warnings=0",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "tsc": "tsc --noEmit",
+    "build": "node ../../../scripts/build-package.mjs .",
+    "prepack": "node ../../../scripts/sync-third-party.mjs --check"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@zooclaw/zooworkdesign": "workspace:*",
+    "clsx": "^2.1.1",
+    "ldrs": "^1.1.9",
+    "motion": "^12.40.0",
+    "usehooks-ts": "3.1.1"
+  },
+  "peerDependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tailwindcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.1",
+    "@types/node": "^24",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.2.0",
+    "eslint": "^9",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.7.4",
+    "typescript-eslint": "^8.61.0",
+    "vitest": "4.1.12",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public",
+    "provenance": false,
+    "tag": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SerendipityOneInc/ZooWorkDesign.git",
+    "directory": "web/packages/chat-ui"
+  },
+  "files": [
+    "dist",
+    "styles.css",
+    "tailwind.css",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "NOTICE",
+    "LICENSING.md",
+    "THIRD_PARTY_NOTICES.md",
+    "third-party",
+    "LICENSE-CC-BY-4.0",
+    "DESIGN_ASSETS.md",
+    "ASSET_MANIFEST.json"
+  ]
+}

@@ -1,0 +1,16 @@
+ZooWork Design System
+
+Original component code and CSS: Apache License 2.0 (LICENSE).
+Third-party code, fonts and data retain their original licenses.
+Listed original design assets: CC BY 4.0 (LICENSE-CC-BY-4.0).
+Attribution: ZooWork Design System · Design by Lynn Zhuang.
+Scope and source: DESIGN_ASSETS.md and ASSET_MANIFEST.json.
+See LICENSING.md, THIRD_PARTY_NOTICES.md and third-party/inventory.json.
+
+Adapted foundation components: shadcn/ui, Copyright (c) 2023 shadcn, MIT.
+Icons and adapted navigation geometry: Heroicons, Copyright (c) Tailwind Labs, Inc., MIT.
+Modifications and source mappings: third-party/SOURCE_ATTRIBUTION.md.
+
+Original upstream copyright, license, NOTICE and third-party notice files
+are preserved verbatim in the referenced third-party/licenses files.
+These notices do not imply endorsement by the upstream authors.

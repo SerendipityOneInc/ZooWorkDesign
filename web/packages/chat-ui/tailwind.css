@@ -1,0 +1,3 @@
+/* Also import @zooclaw/zooworkdesign/tailwind.css in the consumer. */
+@import './styles.css';
+@source './dist/**/*.js';

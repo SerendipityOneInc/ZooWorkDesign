@@ -1,0 +1,99 @@
+name: Publish packages and preview
+
+on:
+  workflow_run:
+    workflows: [Verify packages and preview]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: '已成功的 Verify packages and preview 运行 ID'
+        required: true
+        type: string
+      dry_run:
+        description: '仅验证产物，不写入 npm 或预览仓库'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  actions: read
+  pull-requests: read
+  statuses: write
+  pages: write
+  id-token: write
+
+# Never interrupt npm writes or cancel a pending main release when another PR arrives.
+concurrency:
+  group: design-system-npm-and-preview
+  cancel-in-progress: false
+  queue: max
+
+jobs:
+  deliver:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: https://serendipityoneinc.github.io/ZooWorkDesign/
+    env:
+      GH_TOKEN: ${{ github.token }}
+      DELIVERY_RUN_ID: ${{ github.event.workflow_run.id || inputs.run_id }}
+      DELIVERY_EXECUTE: ${{ github.event_name == 'workflow_run' || inputs.dry_run == false }}
+    steps:
+      # workflow_run always uses trusted default-branch scripts, never PR scripts.
+      # Manual branch execution is the explicit bootstrap/test entry point.
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event_name == 'workflow_dispatch' && github.sha || github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: pnpm/action-setup@v5
+        with:
+          package_json_file: web/package.json
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          registry-url: https://registry.npmjs.org
+      - name: Resolve successful current source
+        id: source
+        run: node scripts/deliver.mjs resolve
+      - name: Download verified npm packages
+        if: steps.source.outputs.eligible == 'true'
+        env:
+          SOURCE_RUN: ${{ steps.source.outputs.run_id }}
+        run: gh run download "$SOURCE_RUN" --repo SerendipityOneInc/ZooWorkDesign --name npm-packages --dir artifacts
+      - name: Download verified fixed-path webpage
+        if: steps.source.outputs.eligible == 'true'
+        env:
+          SOURCE_RUN: ${{ steps.source.outputs.run_id }}
+        run: gh run download "$SOURCE_RUN" --repo SerendipityOneInc/ZooWorkDesign --name design-system-preview-pages --dir preview-output
+      - name: Verify source, versions, integrity and static boundary
+        if: steps.source.outputs.eligible == 'true'
+        run: node scripts/deliver.mjs validate
+      - name: Stage verified public packages
+        id: staged
+        if: steps.source.outputs.eligible == 'true' && env.DELIVERY_EXECUTE == 'true'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_CONFIG_PROVENANCE: 'false'
+        run: node scripts/deliver.mjs stage
+      - name: Upload verified Pages output
+        if: steps.staged.outputs.replace_preview == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: github-pages-${{ github.run_attempt }}
+          path: preview-output
+      - name: Deploy public component preview
+        if: steps.staged.outputs.replace_preview == 'true'
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
+      - name: Verify anonymous package access and promote matching channels
+        if: steps.source.outputs.eligible == 'true' && env.DELIVERY_EXECUTE == 'true'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: node scripts/deliver.mjs finalize
+      - name: Report delivery failure to the source commit
+        if: failure() && env.DELIVERY_EXECUTE == 'true'
+        run: node scripts/deliver.mjs failure

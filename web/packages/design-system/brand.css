@@ -1,0 +1,138 @@
+@import './assets/fonts/fonts.css';
+
+/* Opt-in brand layer. Import after tokens.css and zoowork-theme.css. */
+:root {
+  --zw-ink: #0e0522;
+  --zw-violet: #5755c6;
+  --zw-violet-soft: #e8e7f8;
+  --zw-copy: #4f4964;
+  --zw-border: #e5e1ec;
+  --zw-canvas: #f7f7f7;
+  --zw-paper: #ffffff;
+  --zw-font-display: 'GFS Didot', 'Noto Serif SC', serif;
+  --zw-font-ui: 'Inter', 'Noto Sans SC', sans-serif;
+  --zw-product-action: #34322d;
+  --zw-product-surface: #ffffff;
+  --zw-product-muted: #f8f8f8;
+  --zw-product-copy: #66645f;
+  --zw-product-border: #e5e5e5;
+  /* CreateAgentDialog: theme-aware, overlapping blurred ellipses. */
+  --zw-creation-aura-violet: color-mix(in oklab, var(--brand-ink) 12%, transparent);
+  --zw-creation-aura-green: color-mix(in oklab, var(--ecap-success-border) 35%, transparent);
+  --zw-creation-aura-height: 10rem;
+  --zw-creation-aura-blur: 40px;
+
+}
+.dark {
+  --zw-product-action: #dadada;
+  --zw-product-surface: #232323;
+  --zw-product-muted: #2d2d2d;
+  --zw-product-copy: #acacac;
+  --zw-product-border: #454545;
+}
+:root[data-brand-system] {
+  --font-sans: var(--zw-font-ui);
+  --font-serif: var(--zw-font-display);
+  --brand-display-font: var(--zw-font-display);
+}
+:root[data-brand-system] body,
+:root[data-brand-system] [data-testid='side-nav'] {
+  font-family: var(--zw-font-ui);
+}
+.zw-display {
+  font-family: var(--zw-font-display);
+  font-weight: 400;
+  font-synthesis: none;
+  line-height: 1.08;
+  letter-spacing: -0.018em;
+  text-wrap: balance;
+}
+.zw-display:lang(zh) {
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+[data-zc-surface='marketing'] {
+  color-scheme: light;
+  color: var(--zw-ink);
+  background: var(--zw-canvas);
+  --foreground: var(--zw-ink);
+  --primary: var(--zw-ink);
+  --primary-foreground: var(--zw-paper);
+  --primary-hover: #241a39;
+  --primary-active: #0e0522;
+  --background: var(--zw-canvas);
+  --surface: var(--zw-paper);
+  --control-background: var(--zw-paper);
+  --border: var(--zw-border);
+  --input: var(--zw-border);
+  --ring: var(--zw-violet);
+  --muted-foreground: var(--zw-copy);
+  --hover: var(--zw-violet-soft);
+  --accent: var(--zw-violet-soft);
+  --accent-foreground: var(--zw-ink);
+}
+[data-zc-surface='product'] {
+  color: var(--zw-product-action);
+  background: var(--zw-product-surface);
+  --foreground: var(--zw-product-action);
+  --primary: var(--zw-product-action);
+  --primary-foreground: var(--zw-product-surface);
+  --primary-hover: var(--zw-product-action);
+  --primary-active: var(--zw-product-action);
+  --background: var(--zw-product-surface);
+  --surface: var(--zw-product-surface);
+  --control-background: var(--zw-product-surface);
+  --muted: var(--zw-product-muted);
+  --hover: var(--zw-product-muted);
+  --accent: var(--zw-product-muted);
+  --accent-foreground: var(--zw-product-action);
+  --border: var(--zw-product-border);
+  --input: var(--zw-product-border);
+  --ring: var(--zw-product-action);
+  --muted-foreground: var(--zw-product-copy);
+}
+.zw-update-badge {
+  color: var(--zw-violet);
+  background: var(--zw-violet-soft);
+  border-color: transparent;
+}
+.zw-brand-link {
+  color: var(--zw-violet);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.zw-brand-link:focus-visible {
+  outline: 2px solid var(--zw-violet);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+/* Place inside a positioned, isolated panel. Content stays above this layer. */
+.zw-creation-aura {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: -1;
+  height: var(--zw-creation-aura-height);
+  overflow: hidden;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  pointer-events: none;
+}
+.zw-creation-aura::before,
+.zw-creation-aura::after {
+  content: '';
+  position: absolute;
+  top: -4rem;
+  width: 60%;
+  height: var(--zw-creation-aura-height);
+  border-radius: 9999px;
+  filter: blur(var(--zw-creation-aura-blur));
+}
+.zw-creation-aura::before {
+  left: -2rem;
+  background: var(--zw-creation-aura-violet);
+}
+.zw-creation-aura::after {
+  right: -2rem;
+  background: var(--zw-creation-aura-green);
+}

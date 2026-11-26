@@ -1,0 +1,64 @@
+{
+  "name": "@zooclaw/zooworkdesign-workspace",
+  "private": true,
+  "packageManager": "pnpm@10.26.2",
+  "engines": {
+    "node": ">=24 <25",
+    "pnpm": ">=10"
+  },
+  "scripts": {
+    "build": "pnpm --filter @zooclaw/zooworkdesign build && pnpm --filter @zooclaw/zooworkdesign-chat build",
+    "build:preview": "pnpm --filter @zooclaw/zooworkdesign-preview build",
+    "build:preview:pages": "node ../scripts/build-pages-preview.mjs",
+    "dev": "pnpm build && pnpm --filter @zooclaw/zooworkdesign-preview dev",
+    "typecheck": "pnpm -r run tsc",
+    "lint": "pnpm -r run lint",
+    "test": "pnpm -r run test",
+    "test:release": "node --test ../scripts/*.test.mjs",
+    "licenses:sync": "node ../scripts/sync-third-party.mjs",
+    "licenses:check": "node ../scripts/sync-third-party.mjs --check",
+    "check:changelog": "node ../scripts/check-changelog.mjs",
+    "pack:release": "node ../scripts/pack-release.mjs",
+    "verify:consumer": "node ../scripts/verify-consumers.mjs",
+    "verify:preview": "node ../scripts/verify-preview-navigation.mjs",
+    "verify:theme": "node ../scripts/verify-theme-tokens.mjs",
+    "publish:release": "node ../scripts/publish-release.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@playwright/test": "^1.56.1",
+    "yaml": "^2.8.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "@tailwindcss/oxide"
+    ],
+    "overrides": {
+      "baseline-browser-mapping@>=2.0.0 <2.11.0": "^2.11.0",
+      "browserslist@<4.28.7": "^4.28.7",
+      "flatted": "^3.4.2",
+      "yaml": "^2.8.3",
+      "brace-expansion@<1.1.18": "^1.1.18",
+      "brace-expansion@>=2.0.0 <2.1.4": "^2.1.4",
+      "brace-expansion@>=4.0.0 <5.0.9": "^5.0.9",
+      "picomatch@<2.3.2": "^2.3.2",
+      "picomatch@>=4.0.0 <4.0.4": "^4.0.4",
+      "glob@>=10.2.0 <10.5.0": "^10.5.0",
+      "esbuild": "^0.25.0",
+      "@babel/core@<=7.29.0": "^7.29.6",
+      "js-yaml@>=4.0.0 <4.3.2": "^4.3.2",
+      "minimatch@>=7.0.0 <11.0.1": "11.0.1",
+      "nanoid@>=3.0.0 <3.3.18": "^3.3.18",
+      "nanoid@>=4.0.0 <5.1.16": "^5.1.16",
+      "postcss@>=8.0.0 <=8.5.22": "^8.5.23",
+      "vitest@>=2.1.0 <4.1.12": "4.1.12",
+      "@vitest/expect@>=2.1.0 <4.1.12": "4.1.12",
+      "@vitest/runner@>=2.1.0 <4.1.12": "4.1.12",
+      "@vitest/spy@>=2.1.0 <4.1.12": "4.1.12",
+      "@vitest/utils@>=2.1.0 <4.1.12": "4.1.12",
+      "@vitest/snapshot@>=2.1.0 <4.1.12": "4.1.12",
+      "@vitest/mocker@<4.1.12": "4.1.12"
+    }
+  }
+}
